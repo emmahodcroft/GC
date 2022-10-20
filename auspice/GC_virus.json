@@ -1,0 +1,2299 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      }
+    ],
+    "filters": [],
+    "genome_annotations": {
+      "BearCanyon_sLgp1": {
+        "end": 7078,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 425,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "BearCanyon_sLgp2": {
+        "end": 351,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 64,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "WWAV_sSgp1": {
+        "end": 8622,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 7171,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "WWAV_sSgp2": {
+        "end": 10389,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 8701,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 10445,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "updated": "2022-10-20"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "BearCanyon_sLgp1: E825A, R944K, L998*, I1009L, R1567W, L1796*; WWAV_sSgp1: S6Y, I442L; WWAV_sSgp2: C161F, P389T"
+              },
+              "mutations": {
+                "BearCanyon_sLgp1": [
+                  "E825A",
+                  "R944K",
+                  "L998*",
+                  "I1009L",
+                  "R1567W",
+                  "L1796*"
+                ],
+                "WWAV_sSgp1": [
+                  "S6Y",
+                  "I442L"
+                ],
+                "WWAV_sSgp2": [
+                  "C161F",
+                  "P389T"
+                ],
+                "nuc": [
+                  "A1692T",
+                  "T2380A",
+                  "T4054G",
+                  "A4086C",
+                  "C4248T",
+                  "T4605G",
+                  "A4619T",
+                  "C7187A",
+                  "A8494C",
+                  "G9225T",
+                  "C9908A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: G56A, E158K, V454F, A471D, G1249D, Y1296*, E1413*, S1762T; WWAV_sSgp1: N37S; WWAV_sSgp2: D62E, I394S, C522R"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "G56A",
+                      "E158K",
+                      "V454F",
+                      "A471D",
+                      "G1249D",
+                      "Y1296*",
+                      "E1413*",
+                      "S1762T"
+                    ],
+                    "WWAV_sSgp1": [
+                      "N37S"
+                    ],
+                    "WWAV_sSgp2": [
+                      "D62E",
+                      "I394S",
+                      "C522R"
+                    ],
+                    "nuc": [
+                      "A1795T",
+                      "C2842A",
+                      "A3191T",
+                      "C3333T",
+                      "C4088A",
+                      "C4193T",
+                      "G5667T",
+                      "C5719A",
+                      "C6607T",
+                      "C6912G",
+                      "A7280G",
+                      "A8826G",
+                      "A9209C",
+                      "A10204C",
+                      "T10390C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "case490",
+                    "node_attrs": {
+                      "div": 0.0029296560022170444,
+                      "num_date": {
+                        "confidence": [
+                          2022.7410958904109,
+                          2022.7410958904109
+                        ],
+                        "value": 2022.7410958904109
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case739",
+                        "node_attrs": {
+                          "div": 0.0029296560022170444,
+                          "num_date": {
+                            "confidence": [
+                              2022.7712328767122,
+                              2022.7712328767122
+                            ],
+                            "value": 2022.7712328767122
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G8626A"
+                            ]
+                          }
+                        },
+                        "name": "case688",
+                        "node_attrs": {
+                          "div": 0.0030246560022170444,
+                          "num_date": {
+                            "confidence": [
+                              2022.7657534246575,
+                              2022.7657534246575
+                            ],
+                            "value": 2022.7657534246575
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000021",
+                    "node_attrs": {
+                      "div": 0.0029286560022170442,
+                      "num_date": {
+                        "confidence": [
+                          2022.7297819808075,
+                          2022.7600255915793
+                        ],
+                        "value": 2022.7422547901333
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 0.0029286560022170442,
+                  "num_date": {
+                    "confidence": [
+                      2022.7153672378447,
+                      2022.7410958904109
+                    ],
+                    "value": 2022.7410958904109
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: L823V, R917S, N1345I, I1568F, L1784P, L2199I; WWAV_sSgp1: N20D, I435L; WWAV_sSgp2: E370Q"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "L823V",
+                      "R917S",
+                      "N1345I",
+                      "I1568F",
+                      "L1784P",
+                      "L2199I"
+                    ],
+                    "WWAV_sSgp1": [
+                      "N20D",
+                      "I435L"
+                    ],
+                    "WWAV_sSgp2": [
+                      "E370Q"
+                    ],
+                    "nuc": [
+                      "G484T",
+                      "A1728G",
+                      "T2377A",
+                      "T3045A",
+                      "C4328G",
+                      "A4612C",
+                      "A7228G",
+                      "A8473T",
+                      "C9282G",
+                      "T9556A",
+                      "G10168A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: M160T, E177D, S1214R; WWAV_sSgp1: W453*"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "M160T",
+                          "E177D",
+                          "S1214R"
+                        ],
+                        "WWAV_sSgp1": [
+                          "W453*"
+                        ],
+                        "nuc": [
+                          "A3437C",
+                          "C6548G",
+                          "A6600G",
+                          "C7091T",
+                          "G8528A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case819",
+                        "node_attrs": {
+                          "div": 0.003025656002217045,
+                          "num_date": {
+                            "confidence": [
+                              2022.7630136986302,
+                              2022.7630136986302
+                            ],
+                            "value": 2022.7630136986302
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case421",
+                        "node_attrs": {
+                          "div": 0.003025656002217045,
+                          "num_date": {
+                            "confidence": [
+                              2022.7465753424658,
+                              2022.7465753424658
+                            ],
+                            "value": 2022.7465753424658
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000005",
+                    "node_attrs": {
+                      "div": 0.003024656002217045,
+                      "num_date": {
+                        "confidence": [
+                          2022.7295041278164,
+                          2022.7465753424658
+                        ],
+                        "value": 2022.7424356158117
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T9931A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T584A"
+                            ]
+                          }
+                        },
+                        "name": "case156",
+                        "node_attrs": {
+                          "div": 0.002737656002217044,
+                          "num_date": {
+                            "confidence": [
+                              2022.6808219178083,
+                              2022.6808219178083
+                            ],
+                            "value": 2022.6808219178083
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: R37K, K400E, D1254N"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "R37K",
+                              "K400E",
+                              "D1254N"
+                            ],
+                            "nuc": [
+                              "C3319T",
+                              "T5881C",
+                              "C6969T",
+                              "T10189C"
+                            ]
+                          }
+                        },
+                        "name": "case487",
+                        "node_attrs": {
+                          "div": 0.003024656002217044,
+                          "num_date": {
+                            "confidence": [
+                              2022.7575342465752,
+                              2022.7575342465752
+                            ],
+                            "value": 2022.7575342465752
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case272",
+                        "node_attrs": {
+                          "div": 0.0026426560022170444,
+                          "num_date": {
+                            "confidence": [
+                              2022.7164383561644,
+                              2022.7164383561644
+                            ],
+                            "value": 2022.7164383561644
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "div": 0.0026416560022170443,
+                      "num_date": {
+                        "confidence": [
+                          2022.465067992987,
+                          2022.6808219178083
+                        ],
+                        "value": 2022.6743802334045
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000004",
+                "node_attrs": {
+                  "div": 0.0025456560022170446,
+                  "num_date": {
+                    "confidence": [
+                      2022.2197538103196,
+                      2022.6786494452108
+                    ],
+                    "value": 2022.6438142523334
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 0.001491656002217044,
+              "num_date": {
+                "confidence": [
+                  2016.812746283429,
+                  2022.6736443471032
+                ],
+                "value": 2022.3992328518098
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "BearCanyon_sLgp1: F1819V, D1907G, R1954S"
+              },
+              "mutations": {
+                "BearCanyon_sLgp1": [
+                  "F1819V",
+                  "D1907G",
+                  "R1954S"
+                ],
+                "nuc": [
+                  "C1217G",
+                  "A1231G",
+                  "T1359C",
+                  "T1538A",
+                  "A1624C",
+                  "C3851T",
+                  "G3899A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: P84L, M193R, D367G, L621I, V896I, D1041Y, K1220I, G1467D, V1581A, F1712S, M1905V; WWAV_sSgp1: T113S, G267D, N461Y, K482N; WWAV_sSgp2: D56E"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "P84L",
+                      "M193R",
+                      "D367G",
+                      "L621I",
+                      "V896I",
+                      "D1041Y",
+                      "K1220I",
+                      "G1467D",
+                      "V1581A",
+                      "F1712S",
+                      "M1905V"
+                    ],
+                    "WWAV_sSgp1": [
+                      "T113S",
+                      "G267D",
+                      "N461Y",
+                      "K482N"
+                    ],
+                    "WWAV_sSgp2": [
+                      "D56E"
+                    ],
+                    "nuc": [
+                      "T1366C",
+                      "A1944G",
+                      "A1952G",
+                      "A2337G",
+                      "C2679T",
+                      "T3420A",
+                      "C3958A",
+                      "C4393T",
+                      "G5218T",
+                      "T5519A",
+                      "T5795C",
+                      "T5979C",
+                      "A6501C",
+                      "G6828A",
+                      "T7374G",
+                      "A7507T",
+                      "G7731A",
+                      "G7970A",
+                      "A8551T",
+                      "A8616C",
+                      "G9361T",
+                      "G10222C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "case723",
+                    "node_attrs": {
+                      "div": 0.0032176560022170444,
+                      "num_date": {
+                        "confidence": [
+                          2022.768493150685,
+                          2022.768493150685
+                        ],
+                        "value": 2022.768493150685
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: S1712A, R2205T"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "S1712A",
+                          "R2205T"
+                        ],
+                        "nuc": [
+                          "C465G",
+                          "A1945C"
+                        ]
+                      }
+                    },
+                    "name": "case473",
+                    "node_attrs": {
+                      "div": 0.0034086560022170446,
+                      "num_date": {
+                        "confidence": [
+                          2022.7410958904109,
+                          2022.7410958904109
+                        ],
+                        "value": 2022.7410958904109
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000008",
+                "node_attrs": {
+                  "div": 0.0032166560022170443,
+                  "num_date": {
+                    "confidence": [
+                      2022.6594321260948,
+                      2022.7410958904109
+                    ],
+                    "value": 2022.72606912097
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: F206L, S535T, Y572D, G635D, M672L, E721V, E996K, L1087P, S1138I, S1358T, S1689*, D1867E, D2155E; WWAV_sSgp1: S104P; WWAV_sSgp2: R529M, A535S"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "F206L",
+                      "S535T",
+                      "Y572D",
+                      "G635D",
+                      "M672L",
+                      "E721V",
+                      "E996K",
+                      "L1087P",
+                      "S1138I",
+                      "S1358T",
+                      "S1689*",
+                      "D1867E",
+                      "D2155E"
+                    ],
+                    "WWAV_sSgp1": [
+                      "S104P"
+                    ],
+                    "WWAV_sSgp2": [
+                      "R529M",
+                      "A535S"
+                    ],
+                    "nuc": [
+                      "A614C",
+                      "A835G",
+                      "A1478C",
+                      "G2013C",
+                      "A3007T",
+                      "C3666A",
+                      "A3819G",
+                      "C4093T",
+                      "T4917A",
+                      "T5065G",
+                      "C5175T",
+                      "A5365C",
+                      "C5475G",
+                      "A6463G",
+                      "T7480C",
+                      "C8787A",
+                      "C8804A",
+                      "C10312T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "WWAV_sSgp2: F335L"
+                      },
+                      "mutations": {
+                        "WWAV_sSgp2": [
+                          "F335L"
+                        ],
+                        "nuc": [
+                          "A9385T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: L1289F"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "L1289F"
+                            ],
+                            "nuc": [
+                              "C3212A",
+                              "A6125G"
+                            ]
+                          }
+                        },
+                        "name": "case594",
+                        "node_attrs": {
+                          "div": 0.0031206560022170446,
+                          "num_date": {
+                            "confidence": [
+                              2022.7410958904109,
+                              2022.7410958904109
+                            ],
+                            "value": 2022.7410958904109
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case274",
+                        "node_attrs": {
+                          "div": 0.0029296560022170444,
+                          "num_date": {
+                            "confidence": [
+                              2022.727397260274,
+                              2022.727397260274
+                            ],
+                            "value": 2022.727397260274
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000010",
+                    "node_attrs": {
+                      "div": 0.0029286560022170442,
+                      "num_date": {
+                        "confidence": [
+                          2022.7066367604655,
+                          2022.727397260274
+                        ],
+                        "value": 2022.7271331662844
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case506",
+                        "node_attrs": {
+                          "div": 0.0028336560022170446,
+                          "num_date": {
+                            "confidence": [
+                              2022.7356164383561,
+                              2022.7356164383561
+                            ],
+                            "value": 2022.7356164383561
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case437",
+                        "node_attrs": {
+                          "div": 0.0028336560022170446,
+                          "num_date": {
+                            "confidence": [
+                              2022.727397260274,
+                              2022.727397260274
+                            ],
+                            "value": 2022.727397260274
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000020",
+                    "node_attrs": {
+                      "div": 0.0028326560022170445,
+                      "num_date": {
+                        "confidence": [
+                          2022.7079991658297,
+                          2022.727397260274
+                        ],
+                        "value": 2022.727397260274
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000009",
+                "node_attrs": {
+                  "div": 0.0028326560022170445,
+                  "num_date": {
+                    "confidence": [
+                      2022.6617296780837,
+                      2022.724615271669
+                    ],
+                    "value": 2022.7077160174522
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: S90I, V389E, G558C, V735G, V1396A, T1906A; WWAV_sSgp1: V117G, N338K, G475C; WWAV_sSgp2: F272L"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "S90I",
+                      "V389E",
+                      "G558C",
+                      "V735G",
+                      "V1396A",
+                      "T1906A"
+                    ],
+                    "WWAV_sSgp1": [
+                      "V117G",
+                      "N338K",
+                      "G475C"
+                    ],
+                    "WWAV_sSgp2": [
+                      "F272L"
+                    ],
+                    "nuc": [
+                      "T1363C",
+                      "T2321G",
+                      "A2892G",
+                      "G3632A",
+                      "C3659A",
+                      "A4875C",
+                      "C5407A",
+                      "A5913T",
+                      "C6810A",
+                      "T7520G",
+                      "T8184G",
+                      "G8593T",
+                      "A9576G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "case202",
+                    "node_attrs": {
+                      "div": 0.0023546560022170444,
+                      "num_date": {
+                        "confidence": [
+                          2022.7219178082191,
+                          2022.7219178082191
+                        ],
+                        "value": 2022.7219178082191
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: A1600T; WWAV_sSgp2: A318V"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "A1600T"
+                        ],
+                        "WWAV_sSgp2": [
+                          "A318V"
+                        ],
+                        "nuc": [
+                          "C2281T",
+                          "G9437A",
+                          "C10312A"
+                        ]
+                      }
+                    },
+                    "name": "case718",
+                    "node_attrs": {
+                      "div": 0.002640656002217044,
+                      "num_date": {
+                        "confidence": [
+                          2022.7794520547945,
+                          2022.7794520547945
+                        ],
+                        "value": 2022.7794520547945
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A8535G"
+                            ]
+                          }
+                        },
+                        "name": "case531",
+                        "node_attrs": {
+                          "div": 0.002449656002217044,
+                          "num_date": {
+                            "confidence": [
+                              2022.7493150684932,
+                              2022.7493150684932
+                            ],
+                            "value": 2022.7493150684932
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case485",
+                            "node_attrs": {
+                              "div": 0.0023546560022170444,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7465753424658,
+                                  2022.7465753424658
+                                ],
+                                "value": 2022.7465753424658
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T3302A"
+                                ]
+                              }
+                            },
+                            "name": "case792",
+                            "node_attrs": {
+                              "div": 0.002449656002217044,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7767123287672,
+                                  2022.7767123287672
+                                ],
+                                "value": 2022.7767123287672
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000022",
+                        "node_attrs": {
+                          "div": 0.0023536560022170442,
+                          "num_date": {
+                            "confidence": [
+                              2022.7310801864771,
+                              2022.7465753424658
+                            ],
+                            "value": 2022.7419739285008
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000034",
+                    "node_attrs": {
+                      "div": 0.0023536560022170442,
+                      "num_date": {
+                        "confidence": [
+                          2022.7146759953932,
+                          2022.7459800755857
+                        ],
+                        "value": 2022.7285393923532
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000011",
+                "node_attrs": {
+                  "div": 0.0023536560022170442,
+                  "num_date": {
+                    "confidence": [
+                      2022.699783416904,
+                      2022.7219178082191
+                    ],
+                    "value": 2022.7219178082191
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000007",
+            "node_attrs": {
+              "div": 0.0011076560022170439,
+              "num_date": {
+                "confidence": [
+                  2015.0727735784008,
+                  2022.7123981912107
+                ],
+                "value": 2022.3193623490433
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 0.0004376560022170438,
+          "num_date": {
+            "confidence": [
+              2011.9590102021336,
+              2022.6613377412764
+            ],
+            "value": 2022.1634931787487
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "BearCanyon_sLgp1: V51G, I170L, G175A, H586Q, V826E, F1050L, K2203E; WWAV_sSgp1: I293M"
+          },
+          "mutations": {
+            "BearCanyon_sLgp1": [
+              "V51G",
+              "I170L",
+              "G175A",
+              "H586Q",
+              "V826E",
+              "F1050L",
+              "K2203E"
+            ],
+            "WWAV_sSgp1": [
+              "I293M"
+            ],
+            "nuc": [
+              "T472C",
+              "C1112T",
+              "A1768G",
+              "A3929T",
+              "A4602T",
+              "A4949T",
+              "A5321C",
+              "C6555G",
+              "T6571G",
+              "A6927C",
+              "A8049G"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "BearCanyon_sLgp1: Y305F, V1281E, T1536K; BearCanyon_sLgp2: H54Y; WWAV_sSgp2: E301K"
+              },
+              "mutations": {
+                "BearCanyon_sLgp1": [
+                  "Y305F",
+                  "V1281E",
+                  "T1536K"
+                ],
+                "BearCanyon_sLgp2": [
+                  "H54Y"
+                ],
+                "WWAV_sSgp2": [
+                  "E301K"
+                ],
+                "nuc": [
+                  "C223T",
+                  "C405A",
+                  "G2472T",
+                  "A3237T",
+                  "T6165A",
+                  "C9489T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: E158G, N1708T, I1785M, Q1849H, F1854C, K2159N; WWAV_sSgp1: R139S; WWAV_sSgp2: V129D, M261V"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "E158G",
+                      "N1708T",
+                      "I1785M",
+                      "Q1849H",
+                      "F1854C",
+                      "K2159N"
+                    ],
+                    "WWAV_sSgp1": [
+                      "R139S"
+                    ],
+                    "WWAV_sSgp2": [
+                      "V129D",
+                      "M261V"
+                    ],
+                    "nuc": [
+                      "G560T",
+                      "C602A",
+                      "A1518C",
+                      "T1532G",
+                      "G1724C",
+                      "T1956G",
+                      "A2873G",
+                      "A3374G",
+                      "A3692G",
+                      "T6606C",
+                      "C7122G",
+                      "A7142C",
+                      "G7587T",
+                      "G8639A",
+                      "G8685A",
+                      "A8791T",
+                      "T9609C",
+                      "A10004T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T6959C"
+                        ]
+                      }
+                    },
+                    "name": "case586",
+                    "node_attrs": {
+                      "div": 0.0030133439977829564,
+                      "num_date": {
+                        "confidence": [
+                          2022.7438356164384,
+                          2022.7438356164384
+                        ],
+                        "value": 2022.7438356164384
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "case722",
+                    "node_attrs": {
+                      "div": 0.002918343997782957,
+                      "num_date": {
+                        "confidence": [
+                          2022.7547945205479,
+                          2022.7547945205479
+                        ],
+                        "value": 2022.7547945205479
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: L277Q"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "L277Q"
+                        ],
+                        "nuc": [
+                          "A6249T"
+                        ]
+                      }
+                    },
+                    "name": "case388",
+                    "node_attrs": {
+                      "div": 0.0030133439977829564,
+                      "num_date": {
+                        "confidence": [
+                          2022.7410958904109,
+                          2022.7410958904109
+                        ],
+                        "value": 2022.7410958904109
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000014",
+                "node_attrs": {
+                  "div": 0.0029173439977829567,
+                  "num_date": {
+                    "confidence": [
+                      2022.7100673168766,
+                      2022.7410958904109
+                    ],
+                    "value": 2022.7305511247946
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: Q109R, L200F, K216Q, N251Y, N407H, C1030S, K1247N, S1671T, K2080N; WWAV_sSgp1: V214F; WWAV_sSgp2: H15L"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "Q109R",
+                      "L200F",
+                      "K216Q",
+                      "N251Y",
+                      "N407H",
+                      "C1030S",
+                      "K1247N",
+                      "S1671T",
+                      "K2080N"
+                    ],
+                    "WWAV_sSgp1": [
+                      "V214F"
+                    ],
+                    "WWAV_sSgp2": [
+                      "H15L"
+                    ],
+                    "nuc": [
+                      "C839A",
+                      "A2068T",
+                      "C3338A",
+                      "C3990G",
+                      "T5168C",
+                      "T5860G",
+                      "T6328A",
+                      "T6365A",
+                      "T6433G",
+                      "G6481A",
+                      "T6753C",
+                      "T7689C",
+                      "G7810T",
+                      "T10346A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: F692V"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "F692V"
+                        ],
+                        "nuc": [
+                          "A5005C"
+                        ]
+                      }
+                    },
+                    "name": "case517",
+                    "node_attrs": {
+                      "div": 0.002630343997782956,
+                      "num_date": {
+                        "confidence": [
+                          2022.7356164383561,
+                          2022.7356164383561
+                        ],
+                        "value": 2022.7356164383561
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: D824A"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "D824A"
+                        ],
+                        "nuc": [
+                          "T4608G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case578",
+                        "node_attrs": {
+                          "div": 0.002631343997782956,
+                          "num_date": {
+                            "confidence": [
+                              2022.7438356164384,
+                              2022.7438356164384
+                            ],
+                            "value": 2022.7438356164384
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case242",
+                        "node_attrs": {
+                          "div": 0.002631343997782956,
+                          "num_date": {
+                            "confidence": [
+                              2022.7246575342465,
+                              2022.7246575342465
+                            ],
+                            "value": 2022.7246575342465
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000016",
+                    "node_attrs": {
+                      "div": 0.002630343997782956,
+                      "num_date": {
+                        "confidence": [
+                          2022.7102119218853,
+                          2022.7246575342465
+                        ],
+                        "value": 2022.7246575342465
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000015",
+                "node_attrs": {
+                  "div": 0.002534343997782956,
+                  "num_date": {
+                    "confidence": [
+                      2022.6656714437877,
+                      2022.7223519168494
+                    ],
+                    "value": 2022.7003012893442
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000013",
+            "node_attrs": {
+              "div": 0.0011913439977829566,
+              "num_date": {
+                "confidence": [
+                  2015.9583520514334,
+                  2022.6804604578756
+                ],
+                "value": 2022.3986120538664
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "BearCanyon_sLgp1: Q244K, L303F, A569S, G764R, S1064I, K1394N, T1443P, G2007R; WWAV_sSgp1: T150K, N209K, N285T; WWAV_sSgp2: R117K, F256C, S291R, I505N"
+              },
+              "mutations": {
+                "BearCanyon_sLgp1": [
+                  "Q244K",
+                  "L303F",
+                  "A569S",
+                  "G764R",
+                  "S1064I",
+                  "K1394N",
+                  "T1443P",
+                  "G2007R"
+                ],
+                "WWAV_sSgp1": [
+                  "T150K",
+                  "N209K",
+                  "N285T"
+                ],
+                "WWAV_sSgp2": [
+                  "R117K",
+                  "F256C",
+                  "S291R",
+                  "I505N"
+                ],
+                "nuc": [
+                  "C216A",
+                  "A300C",
+                  "A641T",
+                  "C1060G",
+                  "T2752G",
+                  "T2897G",
+                  "C3888A",
+                  "C4789G",
+                  "A5174C",
+                  "C5374A",
+                  "C6170G",
+                  "G6349T",
+                  "A6677G",
+                  "T7040G",
+                  "C7619A",
+                  "T7797G",
+                  "A8024C",
+                  "G8636T",
+                  "A8876T",
+                  "A9517T",
+                  "A9623C",
+                  "C10040T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: K949*"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "K949*"
+                    ],
+                    "nuc": [
+                      "T4234A"
+                    ]
+                  }
+                },
+                "name": "case229",
+                "node_attrs": {
+                  "div": 0.0028223439977829562,
+                  "num_date": {
+                    "confidence": [
+                      2022.7219178082191,
+                      2022.7219178082191
+                    ],
+                    "value": 2022.7219178082191
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp2: E8Q; WWAV_sSgp2: K34E"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp2": [
+                      "E8Q"
+                    ],
+                    "WWAV_sSgp2": [
+                      "K34E"
+                    ],
+                    "nuc": [
+                      "G85C",
+                      "T10290C"
+                    ]
+                  }
+                },
+                "name": "case271",
+                "node_attrs": {
+                  "div": 0.002918343997782957,
+                  "num_date": {
+                    "confidence": [
+                      2022.7246575342465,
+                      2022.7246575342465
+                    ],
+                    "value": 2022.7246575342465
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: Q2196H"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "Q2196H"
+                    ],
+                    "nuc": [
+                      "T491A",
+                      "C10036A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "case352",
+                    "node_attrs": {
+                      "div": 0.002919343997782957,
+                      "num_date": {
+                        "confidence": [
+                          2022.7383561643835,
+                          2022.7383561643835
+                        ],
+                        "value": 2022.7383561643835
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "case128",
+                    "node_attrs": {
+                      "div": 0.002919343997782957,
+                      "num_date": {
+                        "confidence": [
+                          2022.6972602739727,
+                          2022.6972602739727
+                        ],
+                        "value": 2022.6972602739727
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000018",
+                "node_attrs": {
+                  "div": 0.002918343997782957,
+                  "num_date": {
+                    "confidence": [
+                      2022.6906194108035,
+                      2022.6972602739727
+                    ],
+                    "value": 2022.6972602739727
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case417",
+                        "node_attrs": {
+                          "div": 0.0027263439977829565,
+                          "num_date": {
+                            "confidence": [
+                              2022.727397260274,
+                              2022.727397260274
+                            ],
+                            "value": 2022.727397260274
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: I1238T"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "I1238T"
+                            ],
+                            "nuc": [
+                              "A3366G"
+                            ]
+                          }
+                        },
+                        "name": "case549",
+                        "node_attrs": {
+                          "div": 0.0028223439977829562,
+                          "num_date": {
+                            "confidence": [
+                              2022.7465753424658,
+                              2022.7465753424658
+                            ],
+                            "value": 2022.7465753424658
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000031",
+                    "node_attrs": {
+                      "div": 0.0027263439977829565,
+                      "num_date": {
+                        "confidence": [
+                          2022.70859535627,
+                          2022.727397260274
+                        ],
+                        "value": 2022.727397260274
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case627",
+                        "node_attrs": {
+                          "div": 0.0027263439977829565,
+                          "num_date": {
+                            "confidence": [
+                              2022.7493150684932,
+                              2022.7493150684932
+                            ],
+                            "value": 2022.7493150684932
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case451",
+                        "node_attrs": {
+                          "div": 0.0027263439977829565,
+                          "num_date": {
+                            "confidence": [
+                              2022.7301369863014,
+                              2022.7301369863014
+                            ],
+                            "value": 2022.7301369863014
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000030",
+                    "node_attrs": {
+                      "div": 0.0027263439977829565,
+                      "num_date": {
+                        "confidence": [
+                          2022.71287327442,
+                          2022.7301369863014
+                        ],
+                        "value": 2022.7301369863014
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000043",
+                "node_attrs": {
+                  "div": 0.0027263439977829565,
+                  "num_date": {
+                    "confidence": [
+                      2022.690930847043,
+                      2022.7262802495839
+                    ],
+                    "value": 2022.7106420999216
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case248",
+                        "node_attrs": {
+                          "div": 0.0027263439977829565,
+                          "num_date": {
+                            "confidence": [
+                              2022.7219178082191,
+                              2022.7219178082191
+                            ],
+                            "value": 2022.7219178082191
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "case233",
+                        "node_attrs": {
+                          "div": 0.0027273439977829566,
+                          "num_date": {
+                            "confidence": [
+                              2022.7219178082191,
+                              2022.7219178082191
+                            ],
+                            "value": 2022.7219178082191
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000032",
+                    "node_attrs": {
+                      "div": 0.0027263439977829565,
+                      "num_date": {
+                        "confidence": [
+                          2022.7053627397636,
+                          2022.7219178082191
+                        ],
+                        "value": 2022.7219178082191
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: L510Q, K1851*; WWAV_sSgp2: N71Y"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "L510Q",
+                              "K1851*"
+                            ],
+                            "WWAV_sSgp2": [
+                              "N71Y"
+                            ],
+                            "nuc": [
+                              "T1528A",
+                              "A5550T",
+                              "T10179A"
+                            ]
+                          }
+                        },
+                        "name": "case533",
+                        "node_attrs": {
+                          "div": 0.0030133439977829564,
+                          "num_date": {
+                            "confidence": [
+                              2022.7876712328766,
+                              2022.7876712328766
+                            ],
+                            "value": 2022.7876712328766
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: Y1911N"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "Y1911N"
+                            ],
+                            "nuc": [
+                              "A1348T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case759",
+                            "node_attrs": {
+                              "div": 0.0028233439977829564,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7876712328766,
+                                  2022.7876712328766
+                                ],
+                                "value": 2022.7876712328766
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case455",
+                            "node_attrs": {
+                              "div": 0.0028233439977829564,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7438356164384,
+                                  2022.7438356164384
+                                ],
+                                "value": 2022.7438356164384
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000019",
+                        "node_attrs": {
+                          "div": 0.0028223439977829562,
+                          "num_date": {
+                            "confidence": [
+                              2022.7309521058608,
+                              2022.7438356164384
+                            ],
+                            "value": 2022.7438356164384
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000033",
+                    "node_attrs": {
+                      "div": 0.0027263439977829565,
+                      "num_date": {
+                        "confidence": [
+                          2022.660870407458,
+                          2022.7407541633288
+                        ],
+                        "value": 2022.7239586490473
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000046",
+                "node_attrs": {
+                  "div": 0.0027263439977829565,
+                  "num_date": {
+                    "confidence": [
+                      2022.6653344259648,
+                      2022.7205495934775
+                    ],
+                    "value": 2022.708235660803
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T8842C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "case234",
+                    "node_attrs": {
+                      "div": 0.0028223439977829562,
+                      "num_date": {
+                        "confidence": [
+                          2022.7219178082191,
+                          2022.7219178082191
+                        ],
+                        "value": 2022.7219178082191
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: D673A, N1674H"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "D673A",
+                          "N1674H"
+                        ],
+                        "nuc": [
+                          "T2059G",
+                          "T5061G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G5843A"
+                            ]
+                          }
+                        },
+                        "name": "case554",
+                        "node_attrs": {
+                          "div": 0.0031103439977829563,
+                          "num_date": {
+                            "confidence": [
+                              2022.7520547945205,
+                              2022.7520547945205
+                            ],
+                            "value": 2022.7520547945205
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T458C"
+                            ]
+                          }
+                        },
+                        "name": "case568",
+                        "node_attrs": {
+                          "div": 0.0031103439977829563,
+                          "num_date": {
+                            "confidence": [
+                              2022.7657534246575,
+                              2022.7657534246575
+                            ],
+                            "value": 2022.7657534246575
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: S380N, T837I"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "S380N",
+                              "T837I"
+                            ],
+                            "nuc": [
+                              "G4569A",
+                              "C5940T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: N337K, D1254G; WWAV_sSgp2: A532G"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "N337K",
+                                  "D1254G"
+                                ],
+                                "WWAV_sSgp2": [
+                                  "A532G"
+                                ],
+                                "nuc": [
+                                  "G412A",
+                                  "T3318C",
+                                  "A6068C",
+                                  "G8331T",
+                                  "G8795C"
+                                ]
+                              }
+                            },
+                            "name": "case764",
+                            "node_attrs": {
+                              "div": 0.003685343997782957,
+                              "num_date": {
+                                "confidence": [
+                                  2022.795890410959,
+                                  2022.795890410959
+                                ],
+                                "value": 2022.795890410959
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case338",
+                            "node_attrs": {
+                              "div": 0.003207343997782957,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7438356164384,
+                                  2022.7438356164384
+                                ],
+                                "value": 2022.7438356164384
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000025",
+                        "node_attrs": {
+                          "div": 0.003206343997782957,
+                          "num_date": {
+                            "confidence": [
+                              2022.7354600758858,
+                              2022.7438356164384
+                            ],
+                            "value": 2022.7438356164384
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000024",
+                    "node_attrs": {
+                      "div": 0.0030143439977829566,
+                      "num_date": {
+                        "confidence": [
+                          2022.7164113956449,
+                          2022.7416907340823
+                        ],
+                        "value": 2022.728343425013
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case443",
+                            "node_attrs": {
+                              "div": 0.0028223439977829562,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7383561643835,
+                                  2022.7383561643835
+                                ],
+                                "value": 2022.7383561643835
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case435",
+                            "node_attrs": {
+                              "div": 0.0028233439977829564,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7383561643835,
+                                  2022.7383561643835
+                                ],
+                                "value": 2022.7383561643835
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000037",
+                        "node_attrs": {
+                          "div": 0.0028223439977829562,
+                          "num_date": {
+                            "confidence": [
+                              2022.727753760112,
+                              2022.7383561643835
+                            ],
+                            "value": 2022.7383561643835
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case635",
+                            "node_attrs": {
+                              "div": 0.0028223439977829562,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7438356164384,
+                                  2022.7438356164384
+                                ],
+                                "value": 2022.7438356164384
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case527",
+                            "node_attrs": {
+                              "div": 0.0028223439977829562,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7410958904109,
+                                  2022.7410958904109
+                                ],
+                                "value": 2022.7410958904109
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000036",
+                        "node_attrs": {
+                          "div": 0.0028223439977829562,
+                          "num_date": {
+                            "confidence": [
+                              2022.7287250482652,
+                              2022.7410958904109
+                            ],
+                            "value": 2022.7410958904109
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000053",
+                    "node_attrs": {
+                      "div": 0.0028223439977829562,
+                      "num_date": {
+                        "confidence": [
+                          2022.7140908753463,
+                          2022.7370931969297
+                        ],
+                        "value": 2022.7269894572992
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: K214E"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "K214E"
+                                ],
+                                "nuc": [
+                                  "T6439C"
+                                ]
+                              }
+                            },
+                            "name": "case667",
+                            "node_attrs": {
+                              "div": 0.002918343997782956,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7630136986302,
+                                  2022.7630136986302
+                                ],
+                                "value": 2022.7630136986302
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: F966L"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "F966L"
+                                ],
+                                "nuc": [
+                                  "A4183G"
+                                ]
+                              }
+                            },
+                            "name": "case710",
+                            "node_attrs": {
+                              "div": 0.002918343997782956,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7657534246575,
+                                  2022.7657534246575
+                                ],
+                                "value": 2022.7657534246575
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000039",
+                        "node_attrs": {
+                          "div": 0.0028223439977829562,
+                          "num_date": {
+                            "confidence": [
+                              2022.726284241826,
+                              2022.7536660050541
+                            ],
+                            "value": 2022.7424094952585
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case705",
+                            "node_attrs": {
+                              "div": 0.0028223439977829562,
+                              "num_date": {
+                                "confidence": [
+                                  2022.768493150685,
+                                  2022.768493150685
+                                ],
+                                "value": 2022.768493150685
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: M1016I"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "M1016I"
+                                ],
+                                "nuc": [
+                                  "C4031A"
+                                ]
+                              }
+                            },
+                            "name": "case701",
+                            "node_attrs": {
+                              "div": 0.002918343997782956,
+                              "num_date": {
+                                "confidence": [
+                                  2022.7739726027398,
+                                  2022.7739726027398
+                                ],
+                                "value": 2022.7739726027398
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000038",
+                        "node_attrs": {
+                          "div": 0.0028223439977829562,
+                          "num_date": {
+                            "confidence": [
+                              2022.7309136740544,
+                              2022.764445479241
+                            ],
+                            "value": 2022.7416225631791
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000056",
+                    "node_attrs": {
+                      "div": 0.0028223439977829562,
+                      "num_date": {
+                        "confidence": [
+                          2022.7159429488902,
+                          2022.7458366475648
+                        ],
+                        "value": 2022.7362073541926
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000023",
+                "node_attrs": {
+                  "div": 0.0028223439977829562,
+                  "num_date": {
+                    "confidence": [
+                      2022.667572932571,
+                      2022.7219178082191
+                    ],
+                    "value": 2022.7134085966902
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000017",
+            "node_attrs": {
+              "div": 0.0027263439977829565,
+              "num_date": {
+                "confidence": [
+                  2022.4705488822335,
+                  2022.6970264598322
+                ],
+                "value": 2022.693931119948
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000012",
+        "node_attrs": {
+          "div": 0.0006163439977829565,
+          "num_date": {
+            "confidence": [
+              2013.4553628924052,
+              2022.6556529575014
+            ],
+            "value": 2022.2035852405188
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2009.9598498244134,
+          2022.6188024846779
+        ],
+        "value": 2022.0966465315992
+      }
+    }
+  },
+  "version": "v2"
+}
