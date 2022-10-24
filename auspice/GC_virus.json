@@ -22,6 +22,9 @@
         "type": "categorical"
       }
     ],
+    "display_defaults": {
+      "distance_measure": "div"
+    },
     "filters": [
       "location",
       "symptom_onset"
