@@ -15,6 +15,11 @@
         "key": "country",
         "title": "Country",
         "type": "categorical"
+      },
+      {
+        "key": "host",
+        "title": "Host",
+        "type": "categorical"
       }
     ],
     "filters": [
@@ -143,7 +148,7 @@
       "entropy"
     ],
     "title": "Arenavirus segment S phylogeny",
-    "updated": "2022-10-23"
+    "updated": "2022-10-24"
   },
   "tree": {
     "branch_attrs": {
@@ -3304,7 +3309,10 @@
                   "date": {
                     "value": "20XX-XX-XX"
                   },
-                  "div": 0.83682537
+                  "div": 0.83682537,
+                  "host": {
+                    "value": "Antennarius_striatus"
+                  }
                 }
               },
               {
@@ -5354,7 +5362,10 @@
                   "date": {
                     "value": "20XX-XX-XX"
                   },
-                  "div": 0.88347539
+                  "div": 0.88347539,
+                  "host": {
+                    "value": "Antennarius_striatus"
+                  }
                 }
               }
             ],
@@ -7801,7 +7812,10 @@
                   "date": {
                     "value": "2012-XX-XX"
                   },
-                  "div": 0.92214458
+                  "div": 0.92214458,
+                  "host": {
+                    "value": "Micaelamys_namaquensis"
+                  }
                 }
               },
               {
@@ -11074,7 +11088,10 @@
                           "date": {
                             "value": "2014-XX-XX"
                           },
-                          "div": 1.1416703499999998
+                          "div": 1.1416703499999998,
+                          "host": {
+                            "value": "Boa_constrictor"
+                          }
                         }
                       },
                       {
@@ -11959,7 +11976,10 @@
                               "date": {
                                 "value": "2018-XX-XX"
                               },
-                              "div": 1.2030624699999999
+                              "div": 1.2030624699999999,
+                              "host": {
+                                "value": "Boa_constrictor"
+                              }
                             }
                           },
                           {
@@ -12909,7 +12929,10 @@
                               "date": {
                                 "value": "2017-XX-XX"
                               },
-                              "div": 1.24959111
+                              "div": 1.24959111,
+                              "host": {
+                                "value": "Boa_constrictor"
+                              }
                             }
                           }
                         ],
@@ -15922,7 +15945,10 @@
                           "date": {
                             "value": "2009-07-08"
                           },
-                          "div": 0.9882479099999999
+                          "div": 0.9882479099999999,
+                          "host": {
+                            "value": "Corallus_annulatus"
+                          }
                         }
                       },
                       {
@@ -17655,7 +17681,10 @@
                                   "date": {
                                     "value": "2003-XX-XX"
                                   },
-                                  "div": 1.1697304499999999
+                                  "div": 1.1697304499999999,
+                                  "host": {
+                                    "value": "Boa_constrictor"
+                                  }
                                 }
                               },
                               {
@@ -18026,7 +18055,10 @@
                                   "date": {
                                     "value": "2012-06-05"
                                   },
-                                  "div": 0.9960792999999999
+                                  "div": 0.9960792999999999,
+                                  "host": {
+                                    "value": "Boa_constrictor"
+                                  }
                                 }
                               }
                             ],
@@ -19678,7 +19710,10 @@
                                       "date": {
                                         "value": "2012-XX-XX"
                                       },
-                                      "div": 1.15353717
+                                      "div": 1.15353717,
+                                      "host": {
+                                        "value": "Boa_constrictor"
+                                      }
                                     }
                                   },
                                   {
@@ -20135,7 +20170,10 @@
                                       "date": {
                                         "value": "2009-07-08"
                                       },
-                                      "div": 1.1217666
+                                      "div": 1.1217666,
+                                      "host": {
+                                        "value": "Boa_constrictor"
+                                      }
                                     }
                                   }
                                 ],
@@ -22088,7 +22126,10 @@
                   "date": {
                     "value": "2013-01-01"
                   },
-                  "div": 0.4659723
+                  "div": 0.4659723,
+                  "host": {
+                    "value": "Praomys"
+                  }
                 }
               },
               {
@@ -23748,7 +23789,10 @@
                       "date": {
                         "value": "2008-10"
                       },
-                      "div": 0.65482576
+                      "div": 0.65482576,
+                      "host": {
+                        "value": "Homo_sapiens"
+                      }
                     }
                   },
                   {
@@ -24825,7 +24869,10 @@
                           "date": {
                             "value": "2010-08-10"
                           },
-                          "div": 0.52556301
+                          "div": 0.52556301,
+                          "host": {
+                            "value": "Mus_minutoides"
+                          }
                         }
                       },
                       {
@@ -26017,7 +26064,10 @@
                               "date": {
                                 "value": "2013-08"
                               },
-                              "div": 0.57705295
+                              "div": 0.57705295,
+                              "host": {
+                                "value": "Mus_caroli"
+                              }
                             }
                           }
                         ],
@@ -27357,7 +27407,10 @@
                       "date": {
                         "value": "1985-XX-XX"
                       },
-                      "div": 0.49226508
+                      "div": 0.49226508,
+                      "host": {
+                        "value": "Myotomys_unisulcatus"
+                      }
                     }
                   },
                   {
@@ -28017,7 +28070,10 @@
                       "date": {
                         "value": "2012-XX-XX"
                       },
-                      "div": 0.48722436
+                      "div": 0.48722436,
+                      "host": {
+                        "value": "Micaelamys_namaquensis"
+                      }
                     }
                   }
                 ],
@@ -30055,7 +30111,10 @@
                           "date": {
                             "value": "2013-05"
                           },
-                          "div": 0.54977651
+                          "div": 0.54977651,
+                          "host": {
+                            "value": "Grammomys_sp."
+                          }
                         }
                       }
                     ],
@@ -31260,7 +31319,10 @@
                               "date": {
                                 "value": "2008-XX-XX"
                               },
-                              "div": 0.58000991
+                              "div": 0.58000991,
+                              "host": {
+                                "value": "Bandicota_sp."
+                              }
                             }
                           },
                           {
@@ -31858,7 +31920,10 @@
                               "date": {
                                 "value": "2013-XX-XX"
                               },
-                              "div": 0.56339553
+                              "div": 0.56339553,
+                              "host": {
+                                "value": "Rattus_norvegicus"
+                              }
                             }
                           }
                         ],
@@ -32893,7 +32958,10 @@
                                   "date": {
                                     "value": "2006-05-01"
                                   },
-                                  "div": 0.55808786
+                                  "div": 0.55808786,
+                                  "host": {
+                                    "value": "Chlorocebus_aethiops"
+                                  }
                                 }
                               }
                             ],
@@ -33688,7 +33756,10 @@
                                   "date": {
                                     "value": "2009-08-12"
                                   },
-                                  "div": 0.55797337
+                                  "div": 0.55797337,
+                                  "host": {
+                                    "value": "Mastomys_natalensis"
+                                  }
                                 }
                               },
                               {
@@ -34620,7 +34691,10 @@
                                           "date": {
                                             "value": "2012-08-25"
                                           },
-                                          "div": 0.64260585
+                                          "div": 0.64260585,
+                                          "host": {
+                                            "value": "Mastomys_natalensis"
+                                          }
                                         }
                                       },
                                       {
@@ -36567,7 +36641,10 @@
                                           "date": {
                                             "value": "2004-XX-XX"
                                           },
-                                          "div": 0.63678378
+                                          "div": 0.63678378,
+                                          "host": {
+                                            "value": "Mastomys_natalensis"
+                                          }
                                         }
                                       }
                                     ],
@@ -39592,7 +39669,10 @@
                           "date": {
                             "value": "2022-09-12"
                           },
-                          "div": 0.64042519
+                          "div": 0.64042519,
+                          "host": {
+                            "value": "human"
+                          }
                         }
                       },
                       {
@@ -40790,7 +40870,10 @@
                           "date": {
                             "value": "20XX-XX-XX"
                           },
-                          "div": 0.62658915
+                          "div": 0.62658915,
+                          "host": {
+                            "value": "Peromyscus_californicus"
+                          }
                         }
                       },
                       {
@@ -44733,7 +44816,10 @@
                           "date": {
                             "value": "20XX-XX-XX"
                           },
-                          "div": 0.56215537
+                          "div": 0.56215537,
+                          "host": {
+                            "value": "Oecomys_bicolor"
+                          }
                         }
                       },
                       {
@@ -48016,7 +48102,10 @@
                       "date": {
                         "value": "2016-XX-XX"
                       },
-                      "div": 0.49691644999999995
+                      "div": 0.49691644999999995,
+                      "host": {
+                        "value": "Neacomys_musseri"
+                      }
                     }
                   },
                   {
@@ -51464,7 +51553,10 @@
                           "date": {
                             "value": "2008-10"
                           },
-                          "div": 0.59360179
+                          "div": 0.59360179,
+                          "host": {
+                            "value": "Oligoryzomys_mattogrossae"
+                          }
                         }
                       },
                       {
@@ -51909,7 +52001,10 @@
                           "date": {
                             "value": "2003-XX-XX"
                           },
-                          "div": 0.5570364800000001
+                          "div": 0.5570364800000001,
+                          "host": {
+                            "value": "Homo_sapiens"
+                          }
                         }
                       }
                     ],
