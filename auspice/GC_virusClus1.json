@@ -17,6 +17,16 @@
         "type": "categorical"
       },
       {
+        "key": "sequence_order",
+        "title": "Sequencing order",
+        "type": "categorical"
+      },
+      {
+        "key": "suspected_exposure",
+        "title": "Suspected exposure",
+        "type": "categorical"
+      },
+      {
         "key": "symptom_onset",
         "scale": [
           [
@@ -234,6 +244,12 @@
             ],
             "value": 2022.7219178082191
           },
+          "sequence_order": {
+            "value": "linked to index"
+          },
+          "suspected_exposure": {
+            "value": "rock concert"
+          },
           "symptom_onset": {
             "value": "2022-09-14"
           }
@@ -272,6 +288,12 @@
             ],
             "value": 2022.7876712328766
           },
+          "sequence_order": {
+            "value": "linked to index"
+          },
+          "suspected_exposure": {
+            "value": "rock concert"
+          },
           "symptom_onset": {
             "value": "2022-10-11"
           }
@@ -307,6 +329,12 @@
               2022.7246575342465
             ],
             "value": 2022.7246575342465
+          },
+          "sequence_order": {
+            "value": "linked to index"
+          },
+          "suspected_exposure": {
+            "value": "rock concert"
           },
           "symptom_onset": {
             "value": "2022-09-18"
@@ -346,6 +374,12 @@
                 ],
                 "value": 2022.7383561643835
               },
+              "sequence_order": {
+                "value": "linked to index"
+              },
+              "suspected_exposure": {
+                "value": "rock concert"
+              },
               "symptom_onset": {
                 "value": "2022-09-25"
               }
@@ -367,6 +401,9 @@
                   2022.6972602739727
                 ],
                 "value": 2022.6972602739727
+              },
+              "sequence_order": {
+                "value": "index case"
               },
               "symptom_onset": {
                 "value": "2022-09-12"
@@ -413,6 +450,12 @@
                     ],
                     "value": 2022.7219178082191
                   },
+                  "sequence_order": {
+                    "value": "linked to index"
+                  },
+                  "suspected_exposure": {
+                    "value": "rock concert"
+                  },
                   "symptom_onset": {
                     "value": "2022-09-18"
                   }
@@ -434,6 +477,12 @@
                       2022.7219178082191
                     ],
                     "value": 2022.7219178082191
+                  },
+                  "sequence_order": {
+                    "value": "linked to index"
+                  },
+                  "suspected_exposure": {
+                    "value": "rock concert"
                   },
                   "symptom_onset": {
                     "value": "2022-09-15"
@@ -480,6 +529,12 @@
                         ],
                         "value": 2022.7493150684932
                       },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
+                      },
                       "symptom_onset": {
                         "value": "2022-09-28"
                       }
@@ -511,6 +566,12 @@
                           2022.7465753424658
                         ],
                         "value": 2022.7465753424658
+                      },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
                       },
                       "symptom_onset": {
                         "value": "2022-09-27"
@@ -552,6 +613,12 @@
                         ],
                         "value": 2022.727397260274
                       },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
+                      },
                       "symptom_onset": {
                         "value": "2022-09-20"
                       }
@@ -573,6 +640,12 @@
                           2022.7301369863014
                         ],
                         "value": 2022.7301369863014
+                      },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
                       },
                       "symptom_onset": {
                         "value": "2022-09-20"
@@ -654,6 +727,12 @@
                 ],
                 "value": 2022.7630136986302
               },
+              "sequence_order": {
+                "value": "linked to index"
+              },
+              "suspected_exposure": {
+                "value": "rock concert"
+              },
               "symptom_onset": {
                 "value": "2022-10-01"
               }
@@ -681,6 +760,12 @@
                     ],
                     "value": 2022.7219178082191
                   },
+                  "sequence_order": {
+                    "value": "linked to index"
+                  },
+                  "suspected_exposure": {
+                    "value": "rock concert"
+                  },
                   "symptom_onset": {
                     "value": "2022-09-15"
                   }
@@ -702,6 +787,12 @@
                       2022.7383561643835
                     ],
                     "value": 2022.7383561643835
+                  },
+                  "sequence_order": {
+                    "value": "linked to index"
+                  },
+                  "suspected_exposure": {
+                    "value": "rock concert"
                   },
                   "symptom_onset": {
                     "value": "2022-09-25"
@@ -753,6 +844,12 @@
                     ],
                     "value": 2022.7739726027398
                   },
+                  "sequence_order": {
+                    "value": "linked to index"
+                  },
+                  "suspected_exposure": {
+                    "value": "rock concert"
+                  },
                   "symptom_onset": {
                     "value": "2022-10-08"
                   }
@@ -784,6 +881,12 @@
                       2022.7657534246575
                     ],
                     "value": 2022.7657534246575
+                  },
+                  "sequence_order": {
+                    "value": "linked to index"
+                  },
+                  "suspected_exposure": {
+                    "value": "rock concert"
                   },
                   "symptom_onset": {
                     "value": "2022-10-02"
@@ -841,6 +944,12 @@
                     ],
                     "value": 2022.7520547945205
                   },
+                  "sequence_order": {
+                    "value": "linked to index"
+                  },
+                  "suspected_exposure": {
+                    "value": "rock concert"
+                  },
                   "symptom_onset": {
                     "value": "2022-09-29"
                   }
@@ -866,6 +975,12 @@
                       2022.7657534246575
                     ],
                     "value": 2022.7657534246575
+                  },
+                  "sequence_order": {
+                    "value": "linked to index"
+                  },
+                  "suspected_exposure": {
+                    "value": "rock concert"
                   },
                   "symptom_onset": {
                     "value": "2022-10-04"
@@ -924,6 +1039,12 @@
                         ],
                         "value": 2022.795890410959
                       },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
+                      },
                       "symptom_onset": {
                         "value": "2022-10-14"
                       }
@@ -945,6 +1066,12 @@
                           2022.7438356164384
                         ],
                         "value": 2022.7438356164384
+                      },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
                       },
                       "symptom_onset": {
                         "value": "2022-09-25"
@@ -1004,6 +1131,12 @@
                         ],
                         "value": 2022.768493150685
                       },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
+                      },
                       "symptom_onset": {
                         "value": "2022-10-05"
                       }
@@ -1025,6 +1158,12 @@
                           2022.7383561643835
                         ],
                         "value": 2022.7383561643835
+                      },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
                       },
                       "symptom_onset": {
                         "value": "2022-09-24"
@@ -1066,6 +1205,12 @@
                         ],
                         "value": 2022.7438356164384
                       },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
+                      },
                       "symptom_onset": {
                         "value": "2022-09-24"
                       }
@@ -1087,6 +1232,12 @@
                           2022.7410958904109
                         ],
                         "value": 2022.7410958904109
+                      },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
                       },
                       "symptom_onset": {
                         "value": "2022-09-25"
