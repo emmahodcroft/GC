@@ -1,0 +1,4212 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "location",
+        "title": "Location",
+        "type": "categorical"
+      },
+      {
+        "key": "sequence_order",
+        "title": "Sequencing order",
+        "type": "categorical"
+      },
+      {
+        "key": "suspected_exposure",
+        "title": "Suspected exposure",
+        "type": "categorical"
+      },
+      {
+        "key": "symptom_onset",
+        "scale": [
+          [
+            "2022-09-01",
+            "#5E1D9D"
+          ],
+          [
+            "2022-09-09",
+            "#4B25B1"
+          ],
+          [
+            "2022-09-12",
+            "#4137C2"
+          ],
+          [
+            "2022-09-13",
+            "#3F4CCB"
+          ],
+          [
+            "2022-09-14",
+            "#3F62D0"
+          ],
+          [
+            "2022-09-15",
+            "#4376CD"
+          ],
+          [
+            "2022-09-18",
+            "#4887C6"
+          ],
+          [
+            "2022-09-19",
+            "#4F97BB"
+          ],
+          [
+            "2022-09-20",
+            "#58A2AC"
+          ],
+          [
+            "2022-09-23",
+            "#62AB9C"
+          ],
+          [
+            "2022-09-24",
+            "#6DB38A"
+          ],
+          [
+            "2022-09-25",
+            "#7BB77A"
+          ],
+          [
+            "2022-09-26",
+            "#89BB6B"
+          ],
+          [
+            "2022-09-27",
+            "#98BD5E"
+          ],
+          [
+            "2022-09-28",
+            "#A8BE54"
+          ],
+          [
+            "2022-09-29",
+            "#B7BD4B"
+          ],
+          [
+            "2022-10-01",
+            "#C5B945"
+          ],
+          [
+            "2022-10-02",
+            "#D2B340"
+          ],
+          [
+            "2022-10-04",
+            "#DDAA3C"
+          ],
+          [
+            "2022-10-05",
+            "#E39C39"
+          ],
+          [
+            "2022-10-06",
+            "#E68B35"
+          ],
+          [
+            "2022-10-07",
+            "#E67631"
+          ],
+          [
+            "2022-10-08",
+            "#E35C2C"
+          ],
+          [
+            "2022-10-11",
+            "#DF4227"
+          ],
+          [
+            "2022-10-14",
+            "#DB2823"
+          ]
+        ],
+        "title": "Symptom onset",
+        "type": "categorical"
+      }
+    ],
+    "description": "This phylogeny is of a completely fictional virus created for the purposes of a bioinformatics simulation exercise. ",
+    "filters": [
+      "location",
+      "symptom_onset"
+    ],
+    "genome_annotations": {
+      "BearCanyon_sLgp1": {
+        "end": 7078,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 425,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "BearCanyon_sLgp2": {
+        "end": 351,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 64,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "WWAV_sSgp1": {
+        "end": 8622,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 7171,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "WWAV_sSgp2": {
+        "end": 10389,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 8701,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 10445,
+        "seqid": "config/artic_arenavirus_rodent_2022-10-04.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Alcatraz": {
+            "latitude": 37.825293,
+            "longitude": -122.42179
+          },
+          "Badwater Basin": {
+            "latitude": 33.522097,
+            "longitude": -117.441692
+          },
+          "Bummerville": {
+            "latitude": 34.523555,
+            "longitude": -119.960745
+          },
+          "Coachella valley": {
+            "latitude": 33.683451,
+            "longitude": -116.238132
+          },
+          "Death Valley": {
+            "latitude": 33.018437,
+            "longitude": -116.662583
+          },
+          "Fresno": {
+            "latitude": 36.742251,
+            "longitude": -119.784263
+          },
+          "Gas Point": {
+            "latitude": 33.331411,
+            "longitude": -116.966246
+          },
+          "Hillcrest": {
+            "latitude": 32.746981,
+            "longitude": -117.1641
+          },
+          "Ocean beach": {
+            "latitude": 32.75124,
+            "longitude": -117.250417
+          },
+          "Palm Springs": {
+            "latitude": 33.839896,
+            "longitude": -116.545606
+          },
+          "Scrippsville": {
+            "latitude": 32.884414,
+            "longitude": -117.225107
+          }
+        },
+        "key": "location"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Emma Hodcroft",
+        "url": ""
+      },
+      {
+        "name": "Aine O'Toole",
+        "url": ""
+      },
+      {
+        "name": "Sam Wilkinson",
+        "url": ""
+      },
+      {
+        "name": "Nick Loman",
+        "url": ""
+      },
+      {
+        "name": "Ian Goodfellow",
+        "url": ""
+      },
+      {
+        "name": "Andrew Rambaut",
+        "url": ""
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ],
+    "title": "Novel arenavirus (S+L) build - slow spread example",
+    "updated": "2022-10-25"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "BearCanyon_sLgp1: R944K, R1567W, L1796*; WWAV_sSgp2: P389T"
+          },
+          "mutations": {
+            "BearCanyon_sLgp1": [
+              "R944K",
+              "R1567W",
+              "L1796*"
+            ],
+            "WWAV_sSgp2": [
+              "P389T"
+            ],
+            "nuc": [
+              "A1692T",
+              "T2380A",
+              "C4248T",
+              "A4619G",
+              "G9225T"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "BearCanyon_sLgp1: S501A, E630D, N1081H, F1212C, N1345I, E1478Q, I1568F, L1784H, N2134T, L2199I; WWAV_sSgp1: N20Y, I435L; WWAV_sSgp2: C198S, E370Q"
+              },
+              "mutations": {
+                "BearCanyon_sLgp1": [
+                  "S501A",
+                  "E630D",
+                  "N1081H",
+                  "F1212C",
+                  "N1345I",
+                  "E1478Q",
+                  "I1568F",
+                  "L1784H",
+                  "N2134T",
+                  "L2199I"
+                ],
+                "WWAV_sSgp1": [
+                  "N20Y",
+                  "I435L"
+                ],
+                "WWAV_sSgp2": [
+                  "C198S",
+                  "E370Q"
+                ],
+                "nuc": [
+                  "G484T",
+                  "T678G",
+                  "A1728T",
+                  "T2377A",
+                  "C2647G",
+                  "T3045A",
+                  "A3444C",
+                  "T3838G",
+                  "C4328T",
+                  "A4612G",
+                  "C5189G",
+                  "A5578C",
+                  "A7228T",
+                  "A8473T",
+                  "C9282G",
+                  "T9556A",
+                  "C9797G",
+                  "G10168A"
+                ]
+              }
+            },
+            "name": "case517",
+            "node_attrs": {
+              "div": 0.001725322,
+              "location": {
+                "value": "Palm Springs"
+              },
+              "num_date": {
+                "confidence": [
+                  2022.7356164383561,
+                  2022.7356164383561
+                ],
+                "value": 2022.7356164383561
+              },
+              "sequence_order": {
+                "value": "new sequence"
+              },
+              "suspected_exposure": {
+                "value": "hiking"
+              },
+              "symptom_onset": {
+                "value": "2022-09-24"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T9931A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: P153T, V194E, C527S, L953Q, V1752L, K2143R; WWAV_sSgp1: W202*, N235T; WWAV_sSgp2: K222E, Q454R"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "P153T",
+                      "V194E",
+                      "C527S",
+                      "L953Q",
+                      "V1752L",
+                      "K2143R"
+                    ],
+                    "WWAV_sSgp1": [
+                      "W202*",
+                      "N235T"
+                    ],
+                    "WWAV_sSgp2": [
+                      "K222E",
+                      "Q454R"
+                    ],
+                    "nuc": [
+                      "T392G",
+                      "T651C",
+                      "A1727T",
+                      "C1825A",
+                      "A4221T",
+                      "C5499G",
+                      "A6498T",
+                      "G6622T",
+                      "A7134T",
+                      "G7775A",
+                      "A7874C",
+                      "T9029C",
+                      "T9726C"
+                    ]
+                  }
+                },
+                "name": "case792",
+                "node_attrs": {
+                  "div": 0.0013414081,
+                  "location": {
+                    "value": "Bummerville"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2022.7767123287672,
+                      2022.7767123287672
+                    ],
+                    "value": 2022.7767123287672
+                  },
+                  "sequence_order": {
+                    "value": "new sequence"
+                  },
+                  "suspected_exposure": {
+                    "value": "contact with another case"
+                  },
+                  "symptom_onset": {
+                    "value": "2022-10-06"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T584A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: W16*, R1165S; WWAV_sSgp1: L231V"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "W16*",
+                          "R1165S"
+                        ],
+                        "WWAV_sSgp1": [
+                          "L231V"
+                        ],
+                        "nuc": [
+                          "T3584G",
+                          "C7032T",
+                          "C7861G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: R37K, N360H, K400*, D1210A, D1254N, T1439P, V1574L, N1595I, D2028Y, K2159N; BearCanyon_sLgp2: R66S; WWAV_sSgp1: N190Y; WWAV_sSgp2: R16M, R67S, K109N"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "R37K",
+                              "N360H",
+                              "K400*",
+                              "D1210A",
+                              "D1254N",
+                              "T1439P",
+                              "V1574L",
+                              "N1595I",
+                              "D2028Y",
+                              "K2159N"
+                            ],
+                            "BearCanyon_sLgp2": [
+                              "R66S"
+                            ],
+                            "WWAV_sSgp1": [
+                              "N190Y"
+                            ],
+                            "WWAV_sSgp2": [
+                              "R16M",
+                              "R67S",
+                              "K109N"
+                            ],
+                            "nuc": [
+                              "A261C",
+                              "C602A",
+                              "C997A",
+                              "T2295A",
+                              "C2359A",
+                              "T2764G",
+                              "C3319T",
+                              "T3450G",
+                              "A3916G",
+                              "T5881A",
+                              "T6001G",
+                              "C6969T",
+                              "A7738T",
+                              "T10063G",
+                              "T10189A",
+                              "C10343A"
+                            ]
+                          }
+                        },
+                        "name": "case722",
+                        "node_attrs": {
+                          "div": 0.002012187,
+                          "location": {
+                            "value": "Palm Springs"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2022.7547945205479,
+                              2022.7547945205479
+                            ],
+                            "value": 2022.7547945205479
+                          },
+                          "sequence_order": {
+                            "value": "new sequence"
+                          },
+                          "suspected_exposure": {
+                            "value": "contact with another case"
+                          },
+                          "symptom_onset": {
+                            "value": "2022-10-01"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: R358S, T2104K; WWAV_sSgp1: I328V, L360F; WWAV_sSgp2: Q235P, A253P, M288K"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "R358S",
+                              "T2104K"
+                            ],
+                            "WWAV_sSgp1": [
+                              "I328V",
+                              "L360F"
+                            ],
+                            "WWAV_sSgp2": [
+                              "Q235P",
+                              "A253P",
+                              "M288K"
+                            ],
+                            "nuc": [
+                              "G768T",
+                              "C6005G",
+                              "G6568A",
+                              "A8152G",
+                              "G8250C",
+                              "A9527T",
+                              "C9633G",
+                              "T9686G"
+                            ]
+                          }
+                        },
+                        "name": "case764",
+                        "node_attrs": {
+                          "div": 0.0012450794,
+                          "location": {
+                            "value": "Ocean beach"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2022.795890410959,
+                              2022.795890410959
+                            ],
+                            "value": 2022.795890410959
+                          },
+                          "sequence_order": {
+                            "value": "linked to index"
+                          },
+                          "suspected_exposure": {
+                            "value": "rock concert"
+                          },
+                          "symptom_onset": {
+                            "value": "2022-10-14"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000003",
+                    "node_attrs": {
+                      "div": 0.0004787661,
+                      "num_date": {
+                        "confidence": [
+                          2022.1072300120532,
+                          2022.5096628027
+                        ],
+                        "value": 2022.3850083829288
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: I157L, M160K, D1244A, N1601S, V1859I; WWAV_sSgp1: W453*"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "I157L",
+                          "M160K",
+                          "D1244A",
+                          "N1601S",
+                          "V1859I"
+                        ],
+                        "WWAV_sSgp1": [
+                          "W453*"
+                        ],
+                        "nuc": [
+                          "G758T",
+                          "C1504T",
+                          "T2277C",
+                          "T3348G",
+                          "A3437G",
+                          "C6548T",
+                          "A6600T",
+                          "T6610G",
+                          "C7091T",
+                          "G8528A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "WWAV_sSgp2: Y421*"
+                          },
+                          "mutations": {
+                            "WWAV_sSgp2": [
+                              "Y421*"
+                            ],
+                            "nuc": [
+                              "G8626A",
+                              "A9127C"
+                            ]
+                          }
+                        },
+                        "name": "case455",
+                        "node_attrs": {
+                          "div": 0.0013410113000000001,
+                          "location": {
+                            "value": "Hillcrest"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2022.7438356164384,
+                              2022.7438356164384
+                            ],
+                            "value": 2022.7438356164384
+                          },
+                          "sequence_order": {
+                            "value": "additional case"
+                          },
+                          "suspected_exposure": {
+                            "value": "campervan camping in peaky valley"
+                          },
+                          "symptom_onset": {
+                            "value": "2022-09-26"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case435",
+                            "node_attrs": {
+                              "div": 0.0011505073,
+                              "location": {
+                                "value": "Ocean beach"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7383561643835,
+                                  2022.7383561643835
+                                ],
+                                "value": 2022.7383561643835
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-25"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case274",
+                            "node_attrs": {
+                              "div": 0.0011505073,
+                              "location": {
+                                "value": "Badwater Basin"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.727397260274,
+                                  2022.727397260274
+                                ],
+                                "value": 2022.727397260274
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "camping"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-19"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000047",
+                        "node_attrs": {
+                          "div": 0.0011495073,
+                          "num_date": {
+                            "confidence": [
+                              2022.6824644679066,
+                              2022.727397260274
+                            ],
+                            "value": 2022.719676325732
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "div": 0.0011495073,
+                      "num_date": {
+                        "confidence": [
+                          2022.6224918757707,
+                          2022.7239949809014
+                        ],
+                        "value": 2022.6959880971046
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000002",
+                "node_attrs": {
+                  "div": 0.0001914916,
+                  "num_date": {
+                    "confidence": [
+                      2021.9380691195781,
+                      2022.4386514354485
+                    ],
+                    "value": 2022.2114779538065
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "div": 9.57458e-05,
+              "num_date": {
+                "confidence": [
+                  2021.767856563289,
+                  2022.3910415144824
+                ],
+                "value": 2022.163143985876
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000042",
+        "node_attrs": {
+          "div": 0.0,
+          "num_date": {
+            "confidence": [
+              2021.482247721273,
+              2022.2748107440239
+            ],
+            "value": 2022.0609843870245
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "BearCanyon_sLgp1: E442A, F561I, S935I, T975A, F1196L, K1767M; WWAV_sSgp2: E233Q, F272C, G295A, R434G"
+              },
+              "mutations": {
+                "BearCanyon_sLgp1": [
+                  "E442A",
+                  "F561I",
+                  "S935I",
+                  "T975A",
+                  "F1196L",
+                  "K1767M"
+                ],
+                "WWAV_sSgp2": [
+                  "E233Q",
+                  "F272C",
+                  "G295A",
+                  "R434G"
+                ],
+                "nuc": [
+                  "C47T",
+                  "G859T",
+                  "T1779A",
+                  "A3493G",
+                  "T4156C",
+                  "C4275A",
+                  "A5398T",
+                  "T5754G",
+                  "A6677T",
+                  "T7123G",
+                  "G9090C",
+                  "C9506G",
+                  "A9575C",
+                  "C9693G"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: L2094S"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "L2094S"
+                    ],
+                    "nuc": [
+                      "A798G",
+                      "T7500A",
+                      "G8639A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: N401S, E1484D; WWAV_sSgp1: P80T"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "N401S",
+                          "E1484D"
+                        ],
+                        "WWAV_sSgp1": [
+                          "P80T"
+                        ],
+                        "nuc": [
+                          "T2627G",
+                          "G5234A",
+                          "T5877C",
+                          "T6148G",
+                          "C7408A"
+                        ]
+                      }
+                    },
+                    "name": "case635",
+                    "node_attrs": {
+                      "div": 0.0025865495,
+                      "location": {
+                        "value": "Ocean beach"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2022.7438356164384,
+                          2022.7438356164384
+                        ],
+                        "value": 2022.7438356164384
+                      },
+                      "sequence_order": {
+                        "value": "linked to index"
+                      },
+                      "suspected_exposure": {
+                        "value": "rock concert"
+                      },
+                      "symptom_onset": {
+                        "value": "2022-09-24"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: V826A, K2203Q"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "V826A",
+                          "K2203Q"
+                        ],
+                        "nuc": [
+                          "C216A",
+                          "T472G",
+                          "C1112T",
+                          "A3929G",
+                          "A4602G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: K949E"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "K949E"
+                            ],
+                            "nuc": [
+                              "T4234C"
+                            ]
+                          }
+                        },
+                        "name": "case531",
+                        "node_attrs": {
+                          "div": 0.0026822953,
+                          "location": {
+                            "value": "Bummerville"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2022.7493150684932,
+                              2022.7493150684932
+                            ],
+                            "value": 2022.7493150684932
+                          },
+                          "sequence_order": {
+                            "value": "new sequence"
+                          },
+                          "suspected_exposure": {
+                            "value": "hiking"
+                          },
+                          "symptom_onset": {
+                            "value": "2022-10-01"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "WWAV_sSgp2: R137G"
+                          },
+                          "mutations": {
+                            "WWAV_sSgp2": [
+                              "R137G"
+                            ],
+                            "nuc": [
+                              "T9981C"
+                            ]
+                          }
+                        },
+                        "name": "case739",
+                        "node_attrs": {
+                          "div": 0.0026822953,
+                          "location": {
+                            "value": "Death Valley"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2022.7712328767122,
+                              2022.7712328767122
+                            ],
+                            "value": 2022.7712328767122
+                          },
+                          "sequence_order": {
+                            "value": "new sequence"
+                          },
+                          "suspected_exposure": {
+                            "value": "camping"
+                          },
+                          "symptom_onset": {
+                            "value": "2022-10-06"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G1208A"
+                            ]
+                          }
+                        },
+                        "name": "case437",
+                        "node_attrs": {
+                          "div": 0.0026822953,
+                          "location": {
+                            "value": "Badwater Basin"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2022.727397260274,
+                              2022.727397260274
+                            ],
+                            "value": 2022.727397260274
+                          },
+                          "sequence_order": {
+                            "value": "new sequence"
+                          },
+                          "suspected_exposure": {
+                            "value": "camping"
+                          },
+                          "symptom_onset": {
+                            "value": "2022-09-19"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000008",
+                    "node_attrs": {
+                      "div": 0.0025865495,
+                      "num_date": {
+                        "confidence": [
+                          2022.653233033986,
+                          2022.726087842346
+                        ],
+                        "value": 2022.6966187732573
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000007",
+                "node_attrs": {
+                  "div": 0.0021076967,
+                  "num_date": {
+                    "confidence": [
+                      2022.287737462287,
+                      2022.6125058141408
+                    ],
+                    "value": 2022.4293876790514
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: R74T, Y1235S; WWAV_sSgp2: S443G"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "R74T",
+                      "Y1235S"
+                    ],
+                    "WWAV_sSgp2": [
+                      "S443G"
+                    ],
+                    "nuc": [
+                      "T3375G",
+                      "C3743T",
+                      "C6858G",
+                      "T9063C",
+                      "G10415A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: G1565V, L1640F"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "G1565V",
+                          "L1640F"
+                        ],
+                        "nuc": [
+                          "C2159A",
+                          "C2385A",
+                          "A8684G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: G212R, K260E, H716Y, K722N, R917G, I1329S, S1422Y, K1641T, T1691P, L1707W, H1808D, F1819S, Q2006P; WWAV_sSgp1: K455N"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "G212R",
+                              "K260E",
+                              "H716Y",
+                              "K722N",
+                              "R917G",
+                              "I1329S",
+                              "S1422Y",
+                              "K1641T",
+                              "T1691P",
+                              "L1707W",
+                              "H1808D",
+                              "F1819S",
+                              "Q2006P"
+                            ],
+                            "WWAV_sSgp1": [
+                              "K455N"
+                            ],
+                            "nuc": [
+                              "T1062G",
+                              "C1328T",
+                              "A1623G",
+                              "G1657C",
+                              "A1959C",
+                              "T2008G",
+                              "T2157G",
+                              "G2814T",
+                              "A3093C",
+                              "T4330C",
+                              "C4913G",
+                              "G4933A",
+                              "T6301C",
+                              "C6445G",
+                              "T7137A",
+                              "A8535T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: L596W"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "L596W"
+                                ],
+                                "nuc": [
+                                  "A5292C"
+                                ]
+                              }
+                            },
+                            "name": "case586",
+                            "node_attrs": {
+                              "div": 0.0042157162,
+                              "location": {
+                                "value": "Palm Springs"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7438356164384,
+                                  2022.7438356164384
+                                ],
+                                "value": 2022.7438356164384
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "hiking"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-25"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "case487",
+                            "node_attrs": {
+                              "div": 0.0041209704,
+                              "location": {
+                                "value": "Gas Point"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7575342465752,
+                                  2022.7575342465752
+                                ],
+                                "value": 2022.7575342465752
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "contact with another case"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-10-01"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000011",
+                        "node_attrs": {
+                          "div": 0.0041199704,
+                          "num_date": {
+                            "confidence": [
+                              2022.6867914606787,
+                              2022.7410339462047
+                            ],
+                            "value": 2022.7215936563553
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: A1600T; BearCanyon_sLgp2: A44V; WWAV_sSgp2: A318V"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "A1600T"
+                            ],
+                            "BearCanyon_sLgp2": [
+                              "A44V"
+                            ],
+                            "WWAV_sSgp2": [
+                              "A318V"
+                            ],
+                            "nuc": [
+                              "C194T",
+                              "C2281T",
+                              "G9437A",
+                              "C10312A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: M286L; WWAV_sSgp2: R61K, L243F"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "M286L"
+                                ],
+                                "WWAV_sSgp2": [
+                                  "R61K",
+                                  "L243F"
+                                ],
+                                "nuc": [
+                                  "T6223G",
+                                  "A6256G",
+                                  "G6950C",
+                                  "G9663A",
+                                  "C10208T"
+                                ]
+                              }
+                            },
+                            "name": "case248",
+                            "node_attrs": {
+                              "div": 0.0034484598,
+                              "location": {
+                                "value": "Coachella valley"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7219178082191,
+                                  2022.7219178082191
+                                ],
+                                "value": 2022.7219178082191
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-18"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: S1761C; WWAV_sSgp2: D59Y, N171T"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "S1761C"
+                                ],
+                                "WWAV_sSgp2": [
+                                  "D59Y",
+                                  "N171T"
+                                ],
+                                "nuc": [
+                                  "G974C",
+                                  "G1797C",
+                                  "T3302A",
+                                  "T9878G",
+                                  "C10215A",
+                                  "C10397G"
+                                ]
+                              }
+                            },
+                            "name": "case421",
+                            "node_attrs": {
+                              "div": 0.0035442676,
+                              "location": {
+                                "value": "Gas Point"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7465753424658,
+                                  2022.7465753424658
+                                ],
+                                "value": 2022.7465753424658
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "trail running"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-25"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000012",
+                        "node_attrs": {
+                          "div": 0.002969607,
+                          "num_date": {
+                            "confidence": [
+                              2022.3822526203508,
+                              2022.6236787052492
+                            ],
+                            "value": 2022.5242404895657
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000010",
+                    "node_attrs": {
+                      "div": 0.0025865495,
+                      "num_date": {
+                        "confidence": [
+                          2022.1995018557936,
+                          2022.5017115675578
+                        ],
+                        "value": 2022.335493856143
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: N1060K"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "N1060K"
+                        ],
+                        "nuc": [
+                          "T1538G",
+                          "C3851G",
+                          "G3899C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: G1467A"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "G1467A"
+                            ],
+                            "nuc": [
+                              "C2679G",
+                              "T5519A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: E749*, E1118D; WWAV_sSgp1: K290R"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "E749*",
+                                  "E1118D"
+                                ],
+                                "WWAV_sSgp1": [
+                                  "K290R"
+                                ],
+                                "nuc": [
+                                  "T1124C",
+                                  "A1685T",
+                                  "T3296A",
+                                  "T3725G",
+                                  "C4834A",
+                                  "A8039G"
+                                ]
+                              }
+                            },
+                            "name": "case533",
+                            "node_attrs": {
+                              "div": 0.0033527140999999997,
+                              "location": {
+                                "value": "Ocean beach"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7876712328766,
+                                  2022.7876712328766
+                                ],
+                                "value": 2022.7876712328766
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-10-11"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: I545N, V668G, F1712I, D1972H, R2205K; WWAV_sSgp1: W393S; WWAV_sSgp2: S234L, L497V"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "I545N",
+                                  "V668G",
+                                  "F1712I",
+                                  "D1972H",
+                                  "R2205K"
+                                ],
+                                "WWAV_sSgp1": [
+                                  "W393S"
+                                ],
+                                "WWAV_sSgp2": [
+                                  "S234L",
+                                  "L497V"
+                                ],
+                                "nuc": [
+                                  "T23G",
+                                  "C465T",
+                                  "C1165G",
+                                  "A1945T",
+                                  "A5076C",
+                                  "A5445T",
+                                  "G8348C",
+                                  "G8800C",
+                                  "G8901C",
+                                  "G9689A",
+                                  "C10192T"
+                                ]
+                              }
+                            },
+                            "name": "case554",
+                            "node_attrs": {
+                              "div": 0.0038319389999999995,
+                              "location": {
+                                "value": "Ocean beach"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7520547945205,
+                                  2022.7520547945205
+                                ],
+                                "value": 2022.7520547945205
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-29"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000014",
+                        "node_attrs": {
+                          "div": 0.0027780534999999997,
+                          "num_date": {
+                            "confidence": [
+                              2022.344430463054,
+                              2022.5892241632966
+                            ],
+                            "value": 2022.4632922460682
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: F206V, G635D, E721G, E996Q, S1138I, S1358T; WWAV_sSgp2: R529M, A535S"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "F206V",
+                              "G635D",
+                              "E721G",
+                              "E996Q",
+                              "S1138I",
+                              "S1358T"
+                            ],
+                            "WWAV_sSgp2": [
+                              "R529M",
+                              "A535S"
+                            ],
+                            "nuc": [
+                              "A3007T",
+                              "C3666A",
+                              "C4093G",
+                              "T4917C",
+                              "C5175T",
+                              "A6463C",
+                              "C8787A",
+                              "C8804A",
+                              "C10312G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: H312Q, I512S; BearCanyon_sLgp2: E85G; WWAV_sSgp2: T559S"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "H312Q",
+                                  "I512S"
+                                ],
+                                "BearCanyon_sLgp2": [
+                                  "E85G"
+                                ],
+                                "WWAV_sSgp2": [
+                                  "T559S"
+                                ],
+                                "nuc": [
+                                  "A317G",
+                                  "A5544C",
+                                  "G6143T",
+                                  "G8714C"
+                                ]
+                              }
+                            },
+                            "name": "case667",
+                            "node_attrs": {
+                              "div": 0.0038317653,
+                              "location": {
+                                "value": "Ocean beach"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7630136986302,
+                                  2022.7630136986302
+                                ],
+                                "value": 2022.7630136986302
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-10-01"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: H1747N; WWAV_sSgp1: S30L"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "H1747N"
+                                ],
+                                "WWAV_sSgp1": [
+                                  "S30L"
+                                ],
+                                "nuc": [
+                                  "G1840T",
+                                  "C7259T"
+                                ]
+                              }
+                            },
+                            "name": "case710",
+                            "node_attrs": {
+                              "div": 0.0036402118,
+                              "location": {
+                                "value": "Ocean beach"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7657534246575,
+                                  2022.7657534246575
+                                ],
+                                "value": 2022.7657534246575
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-10-02"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000015",
+                        "node_attrs": {
+                          "div": 0.0034487078,
+                          "num_date": {
+                            "confidence": [
+                              2022.5770267335154,
+                              2022.720030535454
+                            ],
+                            "value": 2022.6608118611823
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: Y258*"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "Y258*"
+                            ],
+                            "nuc": [
+                              "A6305C",
+                              "A9358T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: M874T, I1029V, D1770E; WWAV_sSgp1: D343Y; WWAV_sSgp2: F335L, D540A"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "M874T",
+                                  "I1029V",
+                                  "D1770E"
+                                ],
+                                "WWAV_sSgp1": [
+                                  "D343Y"
+                                ],
+                                "WWAV_sSgp2": [
+                                  "F335L",
+                                  "D540A"
+                                ],
+                                "nuc": [
+                                  "A1769T",
+                                  "C2444A",
+                                  "T3994C",
+                                  "A4458G",
+                                  "G6905A",
+                                  "G8197T",
+                                  "T8771G",
+                                  "A9385T"
+                                ]
+                              }
+                            },
+                            "name": "case338",
+                            "node_attrs": {
+                              "div": 0.0035443667999999996,
+                              "location": {
+                                "value": "Ocean beach"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7438356164384,
+                                  2022.7438356164384
+                                ],
+                                "value": 2022.7438356164384
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-25"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: N318K, L1289F"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "N318K",
+                                  "L1289F"
+                                ],
+                                "nuc": [
+                                  "C3212A",
+                                  "A6125T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: F571L, E996V, K1360T, V1703L, S2117R; WWAV_sSgp2: K492E"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "F571L",
+                                      "E996V",
+                                      "K1360T",
+                                      "V1703L",
+                                      "S2117R"
+                                    ],
+                                    "WWAV_sSgp2": [
+                                      "K492E"
+                                    ],
+                                    "nuc": [
+                                      "A728T",
+                                      "C1972G",
+                                      "T3000G",
+                                      "T4092A",
+                                      "A5366T",
+                                      "T8916C"
+                                    ]
+                                  }
+                                },
+                                "name": "case490",
+                                "node_attrs": {
+                                  "div": 0.0035442180999999996,
+                                  "location": {
+                                    "value": "Death Valley"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.7410958904109,
+                                      2022.7410958904109
+                                    ],
+                                    "value": 2022.7410958904109
+                                  },
+                                  "sequence_order": {
+                                    "value": "new sequence"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "camping"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-26"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: V389E, G558C"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "V389E",
+                                      "G558C"
+                                    ],
+                                    "nuc": [
+                                      "G3632A",
+                                      "C3659A",
+                                      "C5407A",
+                                      "A5913T"
+                                    ]
+                                  }
+                                },
+                                "name": "case417",
+                                "node_attrs": {
+                                  "div": 0.0033526149999999998,
+                                  "location": {
+                                    "value": "Fresno"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.727397260274,
+                                      2022.727397260274
+                                    ],
+                                    "value": 2022.727397260274
+                                  },
+                                  "sequence_order": {
+                                    "value": "linked to index"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "rock concert"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-20"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000017",
+                            "node_attrs": {
+                              "div": 0.0029695574999999996,
+                              "num_date": {
+                                "confidence": [
+                                  2022.4627057262308,
+                                  2022.636619959058
+                                ],
+                                "value": 2022.5522202321717
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000016",
+                        "node_attrs": {
+                          "div": 0.0027780534999999997,
+                          "num_date": {
+                            "confidence": [
+                              2022.3444775863334,
+                              2022.5801465601292
+                            ],
+                            "value": 2022.4660413468443
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000013",
+                    "node_attrs": {
+                      "div": 0.0025865495,
+                      "num_date": {
+                        "confidence": [
+                          2022.2244024961026,
+                          2022.5191376061466
+                        ],
+                        "value": 2022.39041048155
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000009",
+                "node_attrs": {
+                  "div": 0.002299275,
+                  "num_date": {
+                    "confidence": [
+                      2022.0551804492336,
+                      2022.4486107369387
+                    ],
+                    "value": 2022.2906169550763
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000006",
+            "node_attrs": {
+              "div": 0.0018204222,
+              "num_date": {
+                "confidence": [
+                  2021.7845785528734,
+                  2022.380900407399
+                ],
+                "value": 2022.1691023105084
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "BearCanyon_sLgp1: N53I, W1005L, S1366T, R1871G, L2138V; WWAV_sSgp1: I293M; WWAV_sSgp2: K131N, G398E, C436G"
+              },
+              "mutations": {
+                "BearCanyon_sLgp1": [
+                  "N53I",
+                  "W1005L",
+                  "S1366T",
+                  "R1871G",
+                  "L2138V"
+                ],
+                "WWAV_sSgp1": [
+                  "I293M"
+                ],
+                "WWAV_sSgp2": [
+                  "K131N",
+                  "G398E",
+                  "C436G"
+                ],
+                "nuc": [
+                  "G667C",
+                  "G1468C",
+                  "C2982G",
+                  "C4065A",
+                  "A4949T",
+                  "T6921A",
+                  "A8049G",
+                  "A9084C",
+                  "C9197T",
+                  "C9997G",
+                  "A10198T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: L510Q, K1851*; WWAV_sSgp1: G9R; WWAV_sSgp2: N71Y, F173S"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "L510Q",
+                      "K1851*"
+                    ],
+                    "WWAV_sSgp1": [
+                      "G9R"
+                    ],
+                    "WWAV_sSgp2": [
+                      "N71Y",
+                      "F173S"
+                    ],
+                    "nuc": [
+                      "A303G",
+                      "T1528A",
+                      "A5550T",
+                      "G7195C",
+                      "A9872G",
+                      "T10179A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: K240*, E898D, T948P, R1101T, E1119D, F1675C, K1737Q, V1995E, N2134Y; BearCanyon_sLgp2: P23T, L43*; WWAV_sSgp1: I28V, R55I, G142C; WWAV_sSgp2: G388C"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "K240*",
+                          "E898D",
+                          "T948P",
+                          "R1101T",
+                          "E1119D",
+                          "F1675C",
+                          "K1737Q",
+                          "V1995E",
+                          "N2134Y"
+                        ],
+                        "BearCanyon_sLgp2": [
+                          "P23T",
+                          "L43*"
+                        ],
+                        "WWAV_sSgp1": [
+                          "I28V",
+                          "R55I",
+                          "G142C"
+                        ],
+                        "WWAV_sSgp2": [
+                          "G388C"
+                        ],
+                        "nuc": [
+                          "C130A",
+                          "T191A",
+                          "T679A",
+                          "A1095T",
+                          "T1870G",
+                          "A2055C",
+                          "T3722G",
+                          "C3777G",
+                          "T4237G",
+                          "T4385A",
+                          "T6361A",
+                          "A7252G",
+                          "G7334T",
+                          "G7594T",
+                          "C9228A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: R290S, I371F, L1486I; WWAV_sSgp1: A483V; WWAV_sSgp2: N227I, V533A"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "R290S",
+                              "I371F",
+                              "L1486I"
+                            ],
+                            "WWAV_sSgp1": [
+                              "A483V"
+                            ],
+                            "WWAV_sSgp2": [
+                              "N227I",
+                              "V533A"
+                            ],
+                            "nuc": [
+                              "T806C",
+                              "A2132G",
+                              "G2623T",
+                              "T5968A",
+                              "C6209A",
+                              "G6434A",
+                              "C8618T",
+                              "A8792G",
+                              "T9710A"
+                            ]
+                          }
+                        },
+                        "name": "case473",
+                        "node_attrs": {
+                          "div": 0.004408088399999999,
+                          "location": {
+                            "value": "Badwater Basin"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2022.7410958904109,
+                              2022.7410958904109
+                            ],
+                            "value": 2022.7410958904109
+                          },
+                          "sequence_order": {
+                            "value": "new sequence"
+                          },
+                          "suspected_exposure": {
+                            "value": "fishing"
+                          },
+                          "symptom_onset": {
+                            "value": "2022-09-26"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: L31V, R290G, M640I, E1071D, D1324G, G1431R, W1464C, G1545R, I1834M, K1958Q; BearCanyon_sLgp2: G14A"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "L31V",
+                              "R290G",
+                              "M640I",
+                              "E1071D",
+                              "D1324G",
+                              "G1431R",
+                              "W1464C",
+                              "G1545R",
+                              "I1834M",
+                              "K1958Q"
+                            ],
+                            "BearCanyon_sLgp2": [
+                              "G14A"
+                            ],
+                            "nuc": [
+                              "G104C",
+                              "T1207G",
+                              "T1577C",
+                              "C2446G",
+                              "C2687A",
+                              "C2788G",
+                              "T3108C",
+                              "G3629A",
+                              "T3866A",
+                              "C5159G",
+                              "T6211C",
+                              "A6988C"
+                            ]
+                          }
+                        },
+                        "name": "case568",
+                        "node_attrs": {
+                          "div": 0.0046956978,
+                          "location": {
+                            "value": "Ocean beach"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2022.7657534246575,
+                              2022.7657534246575
+                            ],
+                            "value": 2022.7657534246575
+                          },
+                          "sequence_order": {
+                            "value": "linked to index"
+                          },
+                          "suspected_exposure": {
+                            "value": "rock concert"
+                          },
+                          "symptom_onset": {
+                            "value": "2022-10-04"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000020",
+                    "node_attrs": {
+                      "div": 0.0035459300999999997,
+                      "num_date": {
+                        "confidence": [
+                          2022.1987332743463,
+                          2022.550324337632
+                        ],
+                        "value": 2022.4220542757878
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: H1034D, T1271P, S1321A, D1895N; BearCanyon_sLgp2: Y13F"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "H1034D",
+                          "T1271P",
+                          "S1321A",
+                          "D1895N"
+                        ],
+                        "BearCanyon_sLgp2": [
+                          "Y13F"
+                        ],
+                        "nuc": [
+                          "A101T",
+                          "C1396T",
+                          "A3118C",
+                          "T3268G",
+                          "G3979C",
+                          "T5780C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: E594*, F2177S; BearCanyon_sLgp2: P23R; WWAV_sSgp1: N111H, N262K, D325E, E410D"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "E594*",
+                                  "F2177S"
+                                ],
+                                "BearCanyon_sLgp2": [
+                                  "P23R"
+                                ],
+                                "WWAV_sSgp1": [
+                                  "N111H",
+                                  "N262K",
+                                  "D325E",
+                                  "E410D"
+                                ],
+                                "nuc": [
+                                  "C131G",
+                                  "T421C",
+                                  "A549G",
+                                  "C5299A",
+                                  "T6404G",
+                                  "A7501C",
+                                  "C7956A",
+                                  "T8145A",
+                                  "A8400T"
+                                ]
+                              }
+                            },
+                            "name": "case578",
+                            "node_attrs": {
+                              "div": 0.0035442178,
+                              "location": {
+                                "value": "Palm Springs"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7438356164384,
+                                  2022.7438356164384
+                                ],
+                                "value": 2022.7438356164384
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "contact with another case"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-25"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: Q2196H"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "Q2196H"
+                                ],
+                                "nuc": [
+                                  "T491A",
+                                  "C10036A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: S55A, M218R, A1412V, K1737R, R2136K; WWAV_sSgp1: H183N; WWAV_sSgp2: S459I"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "S55A",
+                                      "M218R",
+                                      "A1412V",
+                                      "K1737R",
+                                      "R2136K"
+                                    ],
+                                    "WWAV_sSgp1": [
+                                      "H183N"
+                                    ],
+                                    "WWAV_sSgp2": [
+                                      "S459I"
+                                    ],
+                                    "nuc": [
+                                      "T446G",
+                                      "C672T",
+                                      "T1869C",
+                                      "A2369G",
+                                      "G2844A",
+                                      "A6426C",
+                                      "T6683C",
+                                      "A6916C",
+                                      "C7717A",
+                                      "C9014A"
+                                    ]
+                                  }
+                                },
+                                "name": "case352",
+                                "node_attrs": {
+                                  "div": 0.0038315792,
+                                  "location": {
+                                    "value": "Scrippsville"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.7383561643835,
+                                      2022.7383561643835
+                                    ],
+                                    "value": 2022.7383561643835
+                                  },
+                                  "sequence_order": {
+                                    "value": "linked to index"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "rock concert"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-25"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: A450G, L950F, S1761T; WWAV_sSgp2: H33Q, M53T"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "A450G",
+                                      "L950F",
+                                      "S1761T"
+                                    ],
+                                    "WWAV_sSgp2": [
+                                      "H33Q",
+                                      "M53T"
+                                    ],
+                                    "nuc": [
+                                      "G324A",
+                                      "A1798T",
+                                      "T3818A",
+                                      "T4229A",
+                                      "G5730C",
+                                      "A10232G",
+                                      "A10291T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "case272",
+                                    "node_attrs": {
+                                      "div": 0.0035450442,
+                                      "location": {
+                                        "value": "Gas Point"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2022.7164383561644,
+                                          2022.7164383561644
+                                        ],
+                                        "value": 2022.7164383561644
+                                      },
+                                      "sequence_order": {
+                                        "value": "new sequence"
+                                      },
+                                      "suspected_exposure": {
+                                        "value": "hunting squirrels"
+                                      },
+                                      "symptom_onset": {
+                                        "value": "2022-09-09"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "BearCanyon_sLgp1: R7G"
+                                      },
+                                      "mutations": {
+                                        "BearCanyon_sLgp1": [
+                                          "R7G"
+                                        ],
+                                        "nuc": [
+                                          "G7060C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "case527",
+                                    "node_attrs": {
+                                      "div": 0.0036397899999999995,
+                                      "location": {
+                                        "value": "Ocean beach"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2022.7410958904109,
+                                          2022.7410958904109
+                                        ],
+                                        "value": 2022.7410958904109
+                                      },
+                                      "sequence_order": {
+                                        "value": "linked to index"
+                                      },
+                                      "suspected_exposure": {
+                                        "value": "rock concert"
+                                      },
+                                      "symptom_onset": {
+                                        "value": "2022-09-25"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000023",
+                                "node_attrs": {
+                                  "div": 0.0035440441999999997,
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.6579412240826,
+                                      2022.7164383561644
+                                    ],
+                                    "value": 2022.7164383561644
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000022",
+                            "node_attrs": {
+                              "div": 0.0028735634999999997,
+                              "num_date": {
+                                "confidence": [
+                                  2022.1991451736997,
+                                  2022.5547540539628
+                                ],
+                                "value": 2022.3852685369238
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000043",
+                        "node_attrs": {
+                          "div": 0.0026820595,
+                          "num_date": {
+                            "confidence": [
+                              2022.0699273419177,
+                              2022.4760788721571
+                            ],
+                            "value": 2022.287040372786
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: M193I; WWAV_sSgp1: L95R"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "M193I"
+                            ],
+                            "WWAV_sSgp1": [
+                              "L95R"
+                            ],
+                            "nuc": [
+                              "C6500G",
+                              "T7454G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: F46L, S55A, R106S, R144S, L152P, N337H, K1008*, P1519A, Q2102K"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "F46L",
+                                  "S55A",
+                                  "R106S",
+                                  "R144S",
+                                  "L152P",
+                                  "N337H",
+                                  "K1008*",
+                                  "P1519A",
+                                  "Q2102K"
+                                ],
+                                "nuc": [
+                                  "G775T",
+                                  "G2524C",
+                                  "T4057A",
+                                  "T6070G",
+                                  "A6624G",
+                                  "T6647A",
+                                  "C6761G",
+                                  "A6916C",
+                                  "A6941T",
+                                  "T8842A"
+                                ]
+                              }
+                            },
+                            "name": "case202",
+                            "node_attrs": {
+                              "div": 0.0038315792,
+                              "location": {
+                                "value": "Bummerville"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7219178082191,
+                                  2022.7219178082191
+                                ],
+                                "value": 2022.7219178082191
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "hiking"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-12"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: F1675S; WWAV_sSgp1: R478T"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "F1675S"
+                                ],
+                                "WWAV_sSgp1": [
+                                  "R478T"
+                                ],
+                                "nuc": [
+                                  "A2055G",
+                                  "A4376C",
+                                  "G8603C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: A317P, I1288L, S1838P, G2063A; WWAV_sSgp1: D268N"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "A317P",
+                                      "I1288L",
+                                      "S1838P",
+                                      "G2063A"
+                                    ],
+                                    "WWAV_sSgp1": [
+                                      "D268N"
+                                    ],
+                                    "nuc": [
+                                      "C891G",
+                                      "A1567G",
+                                      "T3217G",
+                                      "A5801G",
+                                      "T5920G",
+                                      "C6130G",
+                                      "G7972A",
+                                      "T9901A"
+                                    ]
+                                  }
+                                },
+                                "name": "case128",
+                                "node_attrs": {
+                                  "div": 0.0039271513,
+                                  "location": {
+                                    "value": "Scrippsville"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.6972602739727,
+                                      2022.6972602739727
+                                    ],
+                                    "value": 2022.6972602739727
+                                  },
+                                  "sequence_order": {
+                                    "value": "index case"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-12"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: R550M, I1238N, A2191G; WWAV_sSgp1: V176L; WWAV_sSgp2: Q400*, R408I"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "R550M",
+                                      "I1238N",
+                                      "A2191G"
+                                    ],
+                                    "WWAV_sSgp1": [
+                                      "V176L"
+                                    ],
+                                    "WWAV_sSgp2": [
+                                      "Q400*",
+                                      "R408I"
+                                    ],
+                                    "nuc": [
+                                      "G507C",
+                                      "A1583G",
+                                      "A3366T",
+                                      "T5042C",
+                                      "C5430A",
+                                      "G7696T",
+                                      "C9167A",
+                                      "G9192A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "BearCanyon_sLgp1: G497V, Q930*, V1037D, R1122P; WWAV_sSgp1: F477S"
+                                      },
+                                      "mutations": {
+                                        "BearCanyon_sLgp1": [
+                                          "G497V",
+                                          "Q930*",
+                                          "V1037D",
+                                          "R1122P"
+                                        ],
+                                        "WWAV_sSgp1": [
+                                          "F477S"
+                                        ],
+                                        "nuc": [
+                                          "C3714G",
+                                          "A3969T",
+                                          "G4291A",
+                                          "C5589A",
+                                          "T8600C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "case718",
+                                    "node_attrs": {
+                                      "div": 0.0044060041,
+                                      "location": {
+                                        "value": "Bummerville"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2022.7794520547945,
+                                          2022.7794520547945
+                                        ],
+                                        "value": 2022.7794520547945
+                                      },
+                                      "sequence_order": {
+                                        "value": "new sequence"
+                                      },
+                                      "suspected_exposure": {
+                                        "value": "hiking"
+                                      },
+                                      "symptom_onset": {
+                                        "value": "2022-10-11"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "BearCanyon_sLgp1: T1847R, Y1911N; WWAV_sSgp2: N410H"
+                                      },
+                                      "mutations": {
+                                        "BearCanyon_sLgp1": [
+                                          "T1847R",
+                                          "Y1911N"
+                                        ],
+                                        "WWAV_sSgp2": [
+                                          "N410H"
+                                        ],
+                                        "nuc": [
+                                          "A1348T",
+                                          "G1539C",
+                                          "T9162G"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "case705",
+                                        "node_attrs": {
+                                          "div": 0.0042154258,
+                                          "location": {
+                                            "value": "Ocean beach"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2022.768493150685,
+                                              2022.768493150685
+                                            ],
+                                            "value": 2022.768493150685
+                                          },
+                                          "sequence_order": {
+                                            "value": "linked to index"
+                                          },
+                                          "suspected_exposure": {
+                                            "value": "rock concert"
+                                          },
+                                          "symptom_onset": {
+                                            "value": "2022-10-05"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "case701",
+                                        "node_attrs": {
+                                          "div": 0.0042154258,
+                                          "location": {
+                                            "value": "Ocean beach"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2022.7739726027398,
+                                              2022.7739726027398
+                                            ],
+                                            "value": 2022.7739726027398
+                                          },
+                                          "sequence_order": {
+                                            "value": "linked to index"
+                                          },
+                                          "suspected_exposure": {
+                                            "value": "rock concert"
+                                          },
+                                          "symptom_onset": {
+                                            "value": "2022-10-08"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000027",
+                                    "node_attrs": {
+                                      "div": 0.0042144258,
+                                      "num_date": {
+                                        "confidence": [
+                                          2022.7064923490914,
+                                          2022.767583704577
+                                        ],
+                                        "value": 2022.7376094125173
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000026",
+                                "node_attrs": {
+                                  "div": 0.0039271513,
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.5509555282913,
+                                      2022.7011486519345
+                                    ],
+                                    "value": 2022.6363089661568
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000025",
+                            "node_attrs": {
+                              "div": 0.0031608379999999996,
+                              "num_date": {
+                                "confidence": [
+                                  2022.2758642600547,
+                                  2022.5455947103337
+                                ],
+                                "value": 2022.4194660043786
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000024",
+                        "node_attrs": {
+                          "div": 0.0028735634999999997,
+                          "num_date": {
+                            "confidence": [
+                              2022.169857204177,
+                              2022.5071315237135
+                            ],
+                            "value": 2022.312068232875
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000021",
+                    "node_attrs": {
+                      "div": 0.0026820595,
+                      "num_date": {
+                        "confidence": [
+                          2022.0709719718964,
+                          2022.4752789467589
+                        ],
+                        "value": 2022.2304884355017
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000019",
+                "node_attrs": {
+                  "div": 0.0021073989,
+                  "num_date": {
+                    "confidence": [
+                      2021.5212101520372,
+                      2022.320637110207
+                    ],
+                    "value": 2021.9438995376718
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "BearCanyon_sLgp1: D436E, L671V, D673V, D738A, L1298I, N1674Y, I1934V, I2010T, P2047H, K2062N"
+                  },
+                  "mutations": {
+                    "BearCanyon_sLgp1": [
+                      "D436E",
+                      "L671V",
+                      "D673V",
+                      "D738A",
+                      "L1298I",
+                      "N1674Y",
+                      "I1934V",
+                      "I2010T",
+                      "P2047H",
+                      "K2062N"
+                    ],
+                    "nuc": [
+                      "G380T",
+                      "T893G",
+                      "G939T",
+                      "A1050G",
+                      "T1279C",
+                      "T2059A",
+                      "G3187T",
+                      "T4866G",
+                      "T5061A",
+                      "A5068C",
+                      "A5771C",
+                      "C6590G",
+                      "A6764T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp1: V1697I"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp1": [
+                          "V1697I"
+                        ],
+                        "nuc": [
+                          "C1990T",
+                          "G5843A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: S361T, D824N, F1481L, L1873*, E1939V; BearCanyon_sLgp2: R4T; WWAV_sSgp2: N298H, N519T"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "S361T",
+                              "D824N",
+                              "F1481L",
+                              "L1873*",
+                              "E1939V"
+                            ],
+                            "BearCanyon_sLgp2": [
+                              "R4T"
+                            ],
+                            "WWAV_sSgp2": [
+                              "N298H",
+                              "N519T"
+                            ],
+                            "nuc": [
+                              "G74C",
+                              "T1263A",
+                              "A1461T",
+                              "A2636T",
+                              "G3491A",
+                              "C4609T",
+                              "C5997G",
+                              "T8834G",
+                              "T9498G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T458C"
+                                ]
+                              }
+                            },
+                            "name": "case156",
+                            "node_attrs": {
+                              "div": 0.0039278086999999995,
+                              "location": {
+                                "value": "Gas Point"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.6808219178083,
+                                  2022.6808219178083
+                                ],
+                                "value": 2022.6808219178083
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "hunting squirrels"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-01"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: S380N, T837I, S1686C"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "S380N",
+                                  "T837I",
+                                  "S1686C"
+                                ],
+                                "nuc": [
+                                  "G2022C",
+                                  "G4569A",
+                                  "C5940T"
+                                ]
+                              }
+                            },
+                            "name": "case234",
+                            "node_attrs": {
+                              "div": 0.0041193374,
+                              "location": {
+                                "value": "Ocean beach"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7219178082191,
+                                  2022.7219178082191
+                                ],
+                                "value": 2022.7219178082191
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-15"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000030",
+                        "node_attrs": {
+                          "div": 0.0038320628999999997,
+                          "num_date": {
+                            "confidence": [
+                              2022.526496982298,
+                              2022.6753088523208
+                            ],
+                            "value": 2022.615962906375
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: P68S, N337K, S813T, Q930E, D1254V, T1684S; WWAV_sSgp1: L73R, K342*; WWAV_sSgp2: W314C, C405F, A532V"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "P68S",
+                              "N337K",
+                              "S813T",
+                              "Q930E",
+                              "D1254V",
+                              "T1684S"
+                            ],
+                            "WWAV_sSgp1": [
+                              "L73R",
+                              "K342*"
+                            ],
+                            "WWAV_sSgp2": [
+                              "W314C",
+                              "C405F",
+                              "A532V"
+                            ],
+                            "nuc": [
+                              "G412A",
+                              "A1912G",
+                              "T2029A",
+                              "T3318A",
+                              "C3902T",
+                              "G4291C",
+                              "A4642T",
+                              "A6068T",
+                              "G6877A",
+                              "T7388G",
+                              "A8194T",
+                              "G8331T",
+                              "G8795A",
+                              "C9176A",
+                              "C9448G",
+                              "C9862G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: K174I, Y833S, F971L, D1776E, D2031N"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "K174I",
+                                  "Y833S",
+                                  "F971L",
+                                  "D1776E",
+                                  "D2031N"
+                                ],
+                                "nuc": [
+                                  "C749T",
+                                  "C988T",
+                                  "A1751C",
+                                  "A2636G",
+                                  "A4166C",
+                                  "T4581G",
+                                  "T6558A"
+                                ]
+                              }
+                            },
+                            "name": "case723",
+                            "node_attrs": {
+                              "div": 0.0051738062,
+                              "location": {
+                                "value": "Badwater Basin"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.768493150685,
+                                  2022.768493150685
+                                ],
+                                "value": 2022.768493150685
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "fishing"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-10-07"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: K434Q, V478L, T517S, M792L, F1000L, R1045S, P1275S, I1326F, I1777V; WWAV_sSgp1: F148S, L348V; WWAV_sSgp2: K341Q"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "K434Q",
+                                  "V478L",
+                                  "T517S",
+                                  "M792L",
+                                  "F1000L",
+                                  "R1045S",
+                                  "P1275S",
+                                  "I1326F",
+                                  "I1777V"
+                                ],
+                                "WWAV_sSgp1": [
+                                  "F148S",
+                                  "L348V"
+                                ],
+                                "WWAV_sSgp2": [
+                                  "K341Q"
+                                ],
+                                "nuc": [
+                                  "A38G",
+                                  "T1750C",
+                                  "T3103A",
+                                  "G3256A",
+                                  "T3944A",
+                                  "A4081G",
+                                  "T4705G",
+                                  "G5529C",
+                                  "C5647G",
+                                  "T5779G",
+                                  "T7591C",
+                                  "T7613C",
+                                  "C8212G",
+                                  "A8214G",
+                                  "A9111G",
+                                  "T9369G",
+                                  "T9616C"
+                                ]
+                              }
+                            },
+                            "name": "case688",
+                            "node_attrs": {
+                              "div": 0.0061326906999999995,
+                              "location": {
+                                "value": "Death Valley"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7657534246575,
+                                  2022.7657534246575
+                                ],
+                                "value": 2022.7657534246575
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "camping"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-10-05"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: D890N; WWAV_sSgp1: E271D, K314E"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "D890N"
+                                ],
+                                "WWAV_sSgp1": [
+                                  "E271D",
+                                  "K314E"
+                                ],
+                                "nuc": [
+                                  "C4411T",
+                                  "G7983T",
+                                  "A8110G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: I72M, S549A, E891*, C1830R"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "I72M",
+                                      "S549A",
+                                      "E891*",
+                                      "C1830R"
+                                    ],
+                                    "nuc": [
+                                      "C339A",
+                                      "A1591G",
+                                      "C4408A",
+                                      "T4439C",
+                                      "A5434C",
+                                      "G6863C",
+                                      "T10258G"
+                                    ]
+                                  }
+                                },
+                                "name": "case443",
+                                "node_attrs": {
+                                  "div": 0.0054610807,
+                                  "location": {
+                                    "value": "Coachella valley"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.7383561643835,
+                                      2022.7383561643835
+                                    ],
+                                    "value": 2022.7383561643835
+                                  },
+                                  "sequence_order": {
+                                    "value": "linked to index"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "rock concert"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-24"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: R144S, D824H; WWAV_sSgp1: Q220R"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "R144S",
+                                      "D824H"
+                                    ],
+                                    "WWAV_sSgp1": [
+                                      "Q220R"
+                                    ],
+                                    "nuc": [
+                                      "C4609G",
+                                      "T6647A",
+                                      "A7829G"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "WWAV_sSgp1: G419W"
+                                      },
+                                      "mutations": {
+                                        "WWAV_sSgp1": [
+                                          "G419W"
+                                        ],
+                                        "nuc": [
+                                          "G8425T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "case271",
+                                    "node_attrs": {
+                                      "div": 0.0051736203,
+                                      "location": {
+                                        "value": "Coachella valley"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2022.7246575342465,
+                                          2022.7246575342465
+                                        ],
+                                        "value": 2022.7246575342465
+                                      },
+                                      "sequence_order": {
+                                        "value": "linked to index"
+                                      },
+                                      "suspected_exposure": {
+                                        "value": "rock concert"
+                                      },
+                                      "symptom_onset": {
+                                        "value": "2022-09-18"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "BearCanyon_sLgp1: F966I"
+                                      },
+                                      "mutations": {
+                                        "BearCanyon_sLgp1": [
+                                          "F966I"
+                                        ],
+                                        "nuc": [
+                                          "A4183T"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "BearCanyon_sLgp1: K296T; WWAV_sSgp2: S444G"
+                                          },
+                                          "mutations": {
+                                            "BearCanyon_sLgp1": [
+                                              "K296T"
+                                            ],
+                                            "WWAV_sSgp2": [
+                                              "S444G"
+                                            ],
+                                            "nuc": [
+                                              "T6192G",
+                                              "T9060C"
+                                            ]
+                                          }
+                                        },
+                                        "name": "case594",
+                                        "node_attrs": {
+                                          "div": 0.0053651243,
+                                          "location": {
+                                            "value": "Badwater Basin"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2022.7410958904109,
+                                              2022.7410958904109
+                                            ],
+                                            "value": 2022.7410958904109
+                                          },
+                                          "sequence_order": {
+                                            "value": "new sequence"
+                                          },
+                                          "suspected_exposure": {
+                                            "value": "camping"
+                                          },
+                                          "symptom_onset": {
+                                            "value": "2022-09-24"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A7419T"
+                                            ]
+                                          }
+                                        },
+                                        "name": "case819",
+                                        "node_attrs": {
+                                          "div": 0.0052693661,
+                                          "location": {
+                                            "value": "Gas Point"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2022.7630136986302,
+                                              2022.7630136986302
+                                            ],
+                                            "value": 2022.7630136986302
+                                          },
+                                          "sequence_order": {
+                                            "value": "new sequence"
+                                          },
+                                          "suspected_exposure": {
+                                            "value": "contact with another case"
+                                          },
+                                          "symptom_onset": {
+                                            "value": "2022-10-02"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000034",
+                                    "node_attrs": {
+                                      "div": 0.0051736203,
+                                      "num_date": {
+                                        "confidence": [
+                                          2022.6542003447732,
+                                          2022.7336105384877
+                                        ],
+                                        "value": 2022.696609089697
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000033",
+                                "node_attrs": {
+                                  "div": 0.0050778745,
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.598699887875,
+                                      2022.7079876431021
+                                    ],
+                                    "value": 2022.6600390868343
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000032",
+                            "node_attrs": {
+                              "div": 0.0047906,
+                              "num_date": {
+                                "confidence": [
+                                  2022.4275807328154,
+                                  2022.6115838367084
+                                ],
+                                "value": 2022.5431649136028
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000031",
+                        "node_attrs": {
+                          "div": 0.0045033255,
+                          "num_date": {
+                            "confidence": [
+                              2022.3265710046867,
+                              2022.543300522662
+                            ],
+                            "value": 2022.4196107484902
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000029",
+                    "node_attrs": {
+                      "div": 0.0029699045999999995,
+                      "num_date": {
+                        "confidence": [
+                          2021.8097620818912,
+                          2022.3025693384582
+                        ],
+                        "value": 2022.1711162025022
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "BearCanyon_sLgp2: M64K"
+                      },
+                      "mutations": {
+                        "BearCanyon_sLgp2": [
+                          "M64K"
+                        ],
+                        "nuc": [
+                          "A238C",
+                          "T254A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: V34L, L277Q, E310D, Q326L, N513S, F643L, D765N, S1080C, F1353Y, L2127R; WWAV_sSgp2: Y402*"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "V34L",
+                              "L277Q",
+                              "E310D",
+                              "Q326L",
+                              "N513S",
+                              "F643L",
+                              "D765N",
+                              "S1080C",
+                              "F1353Y",
+                              "L2127R"
+                            ],
+                            "WWAV_sSgp2": [
+                              "Y402*"
+                            ],
+                            "nuc": [
+                              "A699C",
+                              "G1238A",
+                              "A3021T",
+                              "T3841A",
+                              "C4786T",
+                              "A5150C",
+                              "T5541C",
+                              "T6102A",
+                              "T6149G",
+                              "A6239T",
+                              "A6249T",
+                              "C6979G",
+                              "T7450C",
+                              "G9184T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: L200V"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "L200V"
+                                ],
+                                "nuc": [
+                                  "T6365G",
+                                  "G6481C"
+                                ]
+                              }
+                            },
+                            "name": "case485",
+                            "node_attrs": {
+                              "div": 0.0045029779999999995,
+                              "location": {
+                                "value": "Bummerville"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7465753424658,
+                                  2022.7465753424658
+                                ],
+                                "value": 2022.7465753424658
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "contact with another case"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-28"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: F692I"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "F692I"
+                                ],
+                                "nuc": [
+                                  "A5005T"
+                                ]
+                              }
+                            },
+                            "name": "case549",
+                            "node_attrs": {
+                              "div": 0.004407219799999999,
+                              "location": {
+                                "value": "Coachella valley"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7465753424658,
+                                  2022.7465753424658
+                                ],
+                                "value": 2022.7465753424658
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-27"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000036",
+                        "node_attrs": {
+                          "div": 0.004311473999999999,
+                          "num_date": {
+                            "confidence": [
+                              2022.6187880242874,
+                              2022.7271215693377
+                            ],
+                            "value": 2022.6954810271773
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: R516L, W601S, D824V, S1147L, T1846A, K1928M, D1931E; BearCanyon_sLgp2: L61F; WWAV_sSgp2: M1L"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "R516L",
+                              "W601S",
+                              "D824V",
+                              "S1147L",
+                              "T1846A",
+                              "K1928M",
+                              "D1931E"
+                            ],
+                            "BearCanyon_sLgp2": [
+                              "L61F"
+                            ],
+                            "WWAV_sSgp2": [
+                              "M1L"
+                            ],
+                            "nuc": [
+                              "C244T",
+                              "C396G",
+                              "A1286C",
+                              "T1296A",
+                              "T1543C",
+                              "G3639A",
+                              "T4608A",
+                              "C5277G",
+                              "C5532A",
+                              "T10389G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: A507D, S1068R, Y1678D"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "A507D",
+                                  "S1068R",
+                                  "Y1678D"
+                                ],
+                                "nuc": [
+                                  "A2047C",
+                                  "A2714G",
+                                  "A3875T",
+                                  "G5559T",
+                                  "A6932G"
+                                ]
+                              }
+                            },
+                            "name": "case242",
+                            "node_attrs": {
+                              "div": 0.0044067731,
+                              "location": {
+                                "value": "Palm Springs"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7246575342465,
+                                  2022.7246575342465
+                                ],
+                                "value": 2022.7246575342465
+                              },
+                              "sequence_order": {
+                                "value": "new sequence"
+                              },
+                              "suspected_exposure": {
+                                "value": "hiking"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-13"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: H2009Q; WWAV_sSgp2: L22W, R326I"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "H2009Q"
+                                ],
+                                "WWAV_sSgp2": [
+                                  "L22W",
+                                  "R326I"
+                                ],
+                                "nuc": [
+                                  "G1052T",
+                                  "C9413A",
+                                  "A10325C"
+                                ]
+                              }
+                            },
+                            "name": "case627",
+                            "node_attrs": {
+                              "div": 0.0042151948,
+                              "location": {
+                                "value": "Coachella valley"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2022.7493150684932,
+                                  2022.7493150684932
+                                ],
+                                "value": 2022.7493150684932
+                              },
+                              "sequence_order": {
+                                "value": "linked to index"
+                              },
+                              "suspected_exposure": {
+                                "value": "rock concert"
+                              },
+                              "symptom_onset": {
+                                "value": "2022-09-28"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000037",
+                        "node_attrs": {
+                          "div": 0.003927920299999999,
+                          "num_date": {
+                            "confidence": [
+                              2022.4860091768485,
+                              2022.6630311866563
+                            ],
+                            "value": 2022.575778412932
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "BearCanyon_sLgp1: Q1302R, C2201F"
+                          },
+                          "mutations": {
+                            "BearCanyon_sLgp1": [
+                              "Q1302R",
+                              "C2201F"
+                            ],
+                            "nuc": [
+                              "C477A",
+                              "T3174C",
+                              "T4592G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: V668M, E894D, Q991L, R1438G, S1812T, I2129S"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "V668M",
+                                  "E894D",
+                                  "Q991L",
+                                  "R1438G",
+                                  "S1812T",
+                                  "I2129S"
+                                ],
+                                "nuc": [
+                                  "C404G",
+                                  "A693C",
+                                  "A1645T",
+                                  "T2767C",
+                                  "T4107A",
+                                  "T4397A",
+                                  "C5077T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: T504S, Y552*, T1598S, Q1833K; WWAV_sSgp2: F43L, S291N"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "T504S",
+                                      "Y552*",
+                                      "T1598S",
+                                      "Q1833K"
+                                    ],
+                                    "WWAV_sSgp2": [
+                                      "F43L",
+                                      "S291N"
+                                    ],
+                                    "nuc": [
+                                      "G11C",
+                                      "G1582T",
+                                      "G2286C",
+                                      "G5423C",
+                                      "T5569A",
+                                      "T7158A",
+                                      "G7506A",
+                                      "C9518T",
+                                      "A10261C"
+                                    ]
+                                  }
+                                },
+                                "name": "case759",
+                                "node_attrs": {
+                                  "div": 0.004789818099999999,
+                                  "location": {
+                                    "value": "Hillcrest"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.7876712328766,
+                                      2022.7876712328766
+                                    ],
+                                    "value": 2022.7876712328766
+                                  },
+                                  "sequence_order": {
+                                    "value": "additional case"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "campervan camping in peaky valley"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-10-11"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: K214*, D609H"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "K214*",
+                                      "D609H"
+                                    ],
+                                    "nuc": [
+                                      "C5254G",
+                                      "T6439A"
+                                    ]
+                                  }
+                                },
+                                "name": "case233",
+                                "node_attrs": {
+                                  "div": 0.0041191638,
+                                  "location": {
+                                    "value": "Alcatraz"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.7219178082191,
+                                      2022.7219178082191
+                                    ],
+                                    "value": 2022.7219178082191
+                                  },
+                                  "sequence_order": {
+                                    "value": "linked to index"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "rock concert"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-15"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000039",
+                            "node_attrs": {
+                              "div": 0.003927659799999999,
+                              "num_date": {
+                                "confidence": [
+                                  2022.4737537358267,
+                                  2022.6595866464163
+                                ],
+                                "value": 2022.5722598789207
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: M1016I, R1125I, I1230M; BearCanyon_sLgp2: C74W; WWAV_sSgp1: I313T"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "M1016I",
+                                  "R1125I",
+                                  "I1230M"
+                                ],
+                                "BearCanyon_sLgp2": [
+                                  "C74W"
+                                ],
+                                "WWAV_sSgp1": [
+                                  "I313T"
+                                ],
+                                "nuc": [
+                                  "T285G",
+                                  "T2575G",
+                                  "A3389C",
+                                  "C3705A",
+                                  "C4031A",
+                                  "T8108C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: D438A, K613T, S1446I, E1994K; WWAV_sSgp1: L275P"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "D438A",
+                                      "K613T",
+                                      "S1446I",
+                                      "E1994K"
+                                    ],
+                                    "WWAV_sSgp1": [
+                                      "L275P"
+                                    ],
+                                    "nuc": [
+                                      "C1099T",
+                                      "C2742A",
+                                      "T5241G",
+                                      "T5766G",
+                                      "T6584C",
+                                      "T7994C"
+                                    ]
+                                  }
+                                },
+                                "name": "case451",
+                                "node_attrs": {
+                                  "div": 0.0044065002999999995,
+                                  "location": {
+                                    "value": "Coachella valley"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.7301369863014,
+                                      2022.7301369863014
+                                    ],
+                                    "value": 2022.7301369863014
+                                  },
+                                  "sequence_order": {
+                                    "value": "linked to index"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "rock concert"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-20"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: Y305F, V1281A, T1536K; BearCanyon_sLgp2: H54Y; WWAV_sSgp2: E301Q"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "Y305F",
+                                      "V1281A",
+                                      "T1536K"
+                                    ],
+                                    "BearCanyon_sLgp2": [
+                                      "H54Y"
+                                    ],
+                                    "WWAV_sSgp2": [
+                                      "E301Q"
+                                    ],
+                                    "nuc": [
+                                      "C223T",
+                                      "C405A",
+                                      "G2472T",
+                                      "A3237G",
+                                      "T6165A",
+                                      "C9489G"
+                                    ]
+                                  }
+                                },
+                                "name": "case506",
+                                "node_attrs": {
+                                  "div": 0.0044065002999999995,
+                                  "location": {
+                                    "value": "Badwater Basin"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.7356164383561,
+                                      2022.7356164383561
+                                    ],
+                                    "value": 2022.7356164383561
+                                  },
+                                  "sequence_order": {
+                                    "value": "new sequence"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "camping"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-23"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000040",
+                            "node_attrs": {
+                              "div": 0.0038318396999999994,
+                              "num_date": {
+                                "confidence": [
+                                  2022.3869539040443,
+                                  2022.6092304080228
+                                ],
+                                "value": 2022.5412613280623
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "BearCanyon_sLgp1: K2159N; WWAV_sSgp2: V129D"
+                              },
+                              "mutations": {
+                                "BearCanyon_sLgp1": [
+                                  "K2159N"
+                                ],
+                                "WWAV_sSgp2": [
+                                  "V129D"
+                                ],
+                                "nuc": [
+                                  "C602A",
+                                  "A2873G",
+                                  "G8639C",
+                                  "G8685A",
+                                  "A8791T",
+                                  "A10004T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: G343V, A738G; WWAV_sSgp2: E106V"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "G343V",
+                                      "A738G"
+                                    ],
+                                    "WWAV_sSgp2": [
+                                      "E106V"
+                                    ],
+                                    "nuc": [
+                                      "G4866C",
+                                      "C6051A",
+                                      "T6959A",
+                                      "T10073A"
+                                    ]
+                                  }
+                                },
+                                "name": "case229",
+                                "node_attrs": {
+                                  "div": 0.0042148972,
+                                  "location": {
+                                    "value": "Hillcrest"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.7219178082191,
+                                      2022.7219178082191
+                                    ],
+                                    "value": 2022.7219178082191
+                                  },
+                                  "sequence_order": {
+                                    "value": "linked to index"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "rock concert"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-14"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "BearCanyon_sLgp1: R189W, S380N, S570C, K1668N; WWAV_sSgp2: V303G"
+                                  },
+                                  "mutations": {
+                                    "BearCanyon_sLgp1": [
+                                      "R189W",
+                                      "S380N",
+                                      "S570C",
+                                      "K1668N"
+                                    ],
+                                    "WWAV_sSgp2": [
+                                      "V303G"
+                                    ],
+                                    "nuc": [
+                                      "T2075G",
+                                      "T5371A",
+                                      "C5940T",
+                                      "T6514A",
+                                      "A9482C"
+                                    ]
+                                  }
+                                },
+                                "name": "case388",
+                                "node_attrs": {
+                                  "div": 0.004310692499999999,
+                                  "location": {
+                                    "value": "Palm Springs"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2022.7410958904109,
+                                      2022.7410958904109
+                                    ],
+                                    "value": 2022.7410958904109
+                                  },
+                                  "sequence_order": {
+                                    "value": "new sequence"
+                                  },
+                                  "suspected_exposure": {
+                                    "value": "camping"
+                                  },
+                                  "symptom_onset": {
+                                    "value": "2022-09-28"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000041",
+                            "node_attrs": {
+                              "div": 0.0038318396999999994,
+                              "num_date": {
+                                "confidence": [
+                                  2022.455917372177,
+                                  2022.6430752678268
+                                ],
+                                "value": 2022.5675081896375
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000038",
+                        "node_attrs": {
+                          "div": 0.0032571790999999994,
+                          "num_date": {
+                            "confidence": [
+                              2022.129633546628,
+                              2022.4778754181805
+                            ],
+                            "value": 2022.307051311068
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000035",
+                    "node_attrs": {
+                      "div": 0.0029699045999999995,
+                      "num_date": {
+                        "confidence": [
+                          2021.9773442711337,
+                          2022.3804822645066
+                        ],
+                        "value": 2022.1728008069672
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000028",
+                "node_attrs": {
+                  "div": 0.0027784005999999997,
+                  "num_date": {
+                    "confidence": [
+                      2021.7481929415999,
+                      2022.28937249486
+                    ],
+                    "value": 2022.0995756359564
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000018",
+            "node_attrs": {
+              "div": 0.0015327383,
+              "num_date": {
+                "confidence": [
+                  2021.2236415179798,
+                  2022.0999672684757
+                ],
+                "value": 2021.7189221817684
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000005",
+        "node_attrs": {
+          "div": 0.0004788528,
+          "num_date": {
+            "confidence": [
+              2020.7147918386374,
+              2021.9152537881753
+            ],
+            "value": 2021.4537315368918
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2020.7103190955997,
+          2021.913075512801
+        ],
+        "value": 2021.427195239993
+      }
+    }
+  },
+  "version": "v2"
+}
